@@ -7,7 +7,11 @@ import java.util.Scanner;
 public class ProductRegistrationView {
 
     Scanner sc = new Scanner(System.in);
-    ProductRegistration prodreg = new ProductRegistration();
+    ProductRegistration prodreg;
+
+    public ProductRegistrationView() {
+        prodreg = new ProductRegistration();
+    }
 
     boolean exit;
     

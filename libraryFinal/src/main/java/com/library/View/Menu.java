@@ -4,7 +4,11 @@ import java.util.Scanner;
 
 public class Menu {
 
-    ProductRegistrationView prv = new ProductRegistrationView();
+    ProductRegistrationView prv;
+
+    public void Menu(){
+        prv = new ProductRegistrationView();
+    }
     
     boolean exit;
 
@@ -20,14 +24,14 @@ public class Menu {
     private void printHeader(){
         System.out.println("+----------------------+");
         System.out.println("|      Welcome to      |");
-        System.out.println("|       Library        |");
+        System.out.println("|        Library       |");
         System.out.println("+----------------------+");
     }
 
     private void printMainMenu(){
         System.out.println("\nPlease make a selection: ");
-        System.out.println("1 - Register a book");
-        System.out.println("2 - List the avaliable books");
+        System.out.println("1 - Register a products");
+        System.out.println("2 - List the avaliable products");
         System.out.println("3 - Open your cart");
         System.out.println("4 - Checkout");
         System.out.println("--");

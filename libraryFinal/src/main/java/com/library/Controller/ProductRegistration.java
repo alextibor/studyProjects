@@ -8,7 +8,11 @@ import com.library.Repository.*;
 
 public class ProductRegistration {
 
-    ListDb lDb = new ListDb();
+    ListDb lDb;
+
+    public void ProductRegistration(){
+        lDb = new ListDb();
+    }
 
     public void ebookReg(){
         Product prod = new Ebook();
