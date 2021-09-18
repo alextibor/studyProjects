@@ -5,15 +5,25 @@
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/alextibor/studyProjects) ![GitHub last commit](https://img.shields.io/github/last-commit/alextibor/studyProjects) ![GitHub language count](https://img.shields.io/github/languages/count/alextibor/studyProjects)
 
-<h4 align="center">  🚧  Building Library in C# 🚀   🚧 </h4>
+# 🚧 Current Projects 🚀
+
+<!--ts-->
+
+* [Chess](#chess)
+
+* [Library](#library)
+
+<!--ts-->
 
 
+## Chess
 
+1. Chess in C#
 
+2. Chess in Java
 
+## Library
 
+1. Library in C#
 
-
-
-
-
+2. Library in Java
