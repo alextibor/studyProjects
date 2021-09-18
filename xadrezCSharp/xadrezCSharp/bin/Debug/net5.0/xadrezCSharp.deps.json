@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "xadrezCSharp/1.0.0": {
+        "runtime": {
+          "xadrezCSharp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "xadrezCSharp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
