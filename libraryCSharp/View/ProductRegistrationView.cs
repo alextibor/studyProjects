@@ -1,10 +1,12 @@
 using System;
+using libraryCSharp.Controller;
 
 namespace libraryCSharp.View
 {
     public class ProductRegistrationView {
         
         ProductRegistration prodreg;
+        Menu mainMenu = new Menu();
 
         public ProductRegistrationView() {
             prodreg = new ProductRegistration();
@@ -41,22 +43,22 @@ namespace libraryCSharp.View
                 case 1:
                     eBookRegView();
                     nextMove();
-                    //break;
+                    break;
                 case 2:
                     physicalBookRegView();
                     nextMove();
-                    //break;
+                    break;
                 case 3:
                     miniBookRegView();
                     nextMove();
-                    //break;
+                    break;
                 case 4:
                     magazineRegView();
                     nextMove();
-                    //break;
+                    break;
                 default:
-                    System.out.println("Invalid");
-                    //break;
+                    Console.WriteLine("Invalid");
+                    break;
             }
         }
 
@@ -74,32 +76,27 @@ namespace libraryCSharp.View
         }
 
         public void eBookRegView(){
-            clearScreen();
+            Console.Clear();
             prodreg.ebookReg();
-            clearScreen();
+            Console.Clear();
         }
 
         public void physicalBookRegView(){
-            clearScreen();
+            Console.Clear();
             prodreg.physicalBookReg();
-            clearScreen();
+            Console.Clear();
         }
 
         public void miniBookRegView(){
-            clearScreen();
+            Console.Clear();
             prodreg.miniBookReg();
-            clearScreen();
+            Console.Clear();;
         }
 
         public void magazineRegView(){
-            clearScreen();
+            Console.Clear();
             prodreg.magazineReg();
-            clearScreen();
-        }
-
-        public void clearScreen() {  
-            System.out.print("\033[H\033[2J");  
-            System.out.flush();  
+            Console.Clear();
         }
 
         public void nextMove(){
@@ -107,14 +104,13 @@ namespace libraryCSharp.View
             Console.WriteLine("1 - Yes / 2 - No");
             int answer = int.Parse(Console.ReadLine());
             if(answer == 1){
-                clearScreen();
+                Console.Clear();
                 runRegMenu();
             } else if (answer == 2){
-                clearScreen();
-                Menu mainMenu = new Menu();
+                Console.Clear();
                 mainMenu.runMenu();
             } else{
-                clearScreen();
+                Console.Clear();
                 Console.WriteLine("Invalid answer.");
                 nextMove();
             }

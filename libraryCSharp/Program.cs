@@ -1,4 +1,5 @@
 ﻿using System;
+using libraryCSharp.View;
 
 namespace libraryCSharp
 {
@@ -6,7 +7,8 @@ namespace libraryCSharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Menu mn = new Menu();
+            mn.runMenu();
         }
     }
 }

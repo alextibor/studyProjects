@@ -1,6 +1,6 @@
 namespace libraryCSharp.Model
 {
-    public class Magazine
+    public class Magazine : Product
     {
         
     }

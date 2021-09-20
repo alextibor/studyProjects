@@ -7,7 +7,5 @@ namespace libraryCSharp.Model
             base.pc = new PublishingCompany();
             base.author = new Author();
         }
-        
-        
     }
 }

@@ -1,6 +1,6 @@
 namespace libraryCSharp.Model
 {
-    public class PhysicalBook
+    public class PhysicalBook : Product
     {
         
     }

@@ -1,6 +1,6 @@
 namespace libraryCSharp.Model
 {
-    public class MiniBook
+    public class MiniBook : Product
     {
         
     }

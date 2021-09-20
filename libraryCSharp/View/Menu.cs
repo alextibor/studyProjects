@@ -1,11 +1,18 @@
 using System;
 using System.Runtime.InteropServices;
+using libraryCSharp.Controller;
 
 namespace libraryCSharp.View
 {
     public class Menu
     {
+        ProductRegistrationView prv;
         bool exit;
+
+        public Menu()
+        {
+            prv = new ProductRegistrationView();
+        }
 
         public void runMenu(){
             printHeader();
@@ -50,19 +57,19 @@ namespace libraryCSharp.View
                 case 1:
                     prv.runRegMenu();
                     runMenu();
-                //break;
+                break;
                 case 2:
                     prv.retriveProdList();
                     runMenu();
-                //break;
+                break;
                 case 3:
                 
-                //break;
+                break;
                 case 4:
-                //break;
+                break;
                 default:
                     Console.WriteLine("Invalid");
-                //break;
+                break;
             }
         }  
         
