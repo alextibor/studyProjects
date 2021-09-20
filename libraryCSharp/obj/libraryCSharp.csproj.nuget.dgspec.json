@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/t1b0r/Documents/tiborProjects/estudos/xadrezCSharp/libraryCSharp/libraryCSharp.csproj": {}
+    "/home/t1b0r/Documents/tiborProjects/studyProjects/libraryCSharp/libraryCSharp.csproj": {}
   },
   "projects": {
-    "/home/t1b0r/Documents/tiborProjects/estudos/xadrezCSharp/libraryCSharp/libraryCSharp.csproj": {
+    "/home/t1b0r/Documents/tiborProjects/studyProjects/libraryCSharp/libraryCSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/t1b0r/Documents/tiborProjects/estudos/xadrezCSharp/libraryCSharp/libraryCSharp.csproj",
+        "projectUniqueName": "/home/t1b0r/Documents/tiborProjects/studyProjects/libraryCSharp/libraryCSharp.csproj",
         "projectName": "libraryCSharp",
-        "projectPath": "/home/t1b0r/Documents/tiborProjects/estudos/xadrezCSharp/libraryCSharp/libraryCSharp.csproj",
+        "projectPath": "/home/t1b0r/Documents/tiborProjects/studyProjects/libraryCSharp/libraryCSharp.csproj",
         "packagesPath": "/home/t1b0r/.nuget/packages/",
-        "outputPath": "/home/t1b0r/Documents/tiborProjects/estudos/xadrezCSharp/libraryCSharp/obj/",
+        "outputPath": "/home/t1b0r/Documents/tiborProjects/studyProjects/libraryCSharp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/t1b0r/.nuget/NuGet/NuGet.Config"
