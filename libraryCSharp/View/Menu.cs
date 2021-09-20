@@ -59,7 +59,7 @@ namespace libraryCSharp.View
                     runMenu();
                 break;
                 case 2:
-                    prv.retriveProdList();
+                    prv.RetriveProdList();
                     runMenu();
                 break;
                 case 3:

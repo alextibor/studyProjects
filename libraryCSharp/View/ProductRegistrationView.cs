@@ -6,8 +6,7 @@ namespace libraryCSharp.View
     public class ProductRegistrationView {
         
         ProductRegistration prodreg;
-        Menu mainMenu = new Menu();
-
+        
         public ProductRegistrationView() {
             prodreg = new ProductRegistration();
         }
@@ -108,6 +107,7 @@ namespace libraryCSharp.View
                 runRegMenu();
             } else if (answer == 2){
                 Console.Clear();
+                Menu mainMenu = new Menu();
                 mainMenu.runMenu();
             } else{
                 Console.Clear();
@@ -116,7 +116,7 @@ namespace libraryCSharp.View
             }
         }
 
-        public void retriveProdList(){
+        public void RetriveProdList(){
             prodreg.productShow();
         }
     }    
