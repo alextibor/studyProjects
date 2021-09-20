@@ -1,13 +1,17 @@
+using System;
+using libraryCSharp.Model;
+using libraryCSharp.Repository;
+
 namespace libraryCSharp.Controller
 {
     public class ProductRegistration
     {
-        ListDb lDb;
+        private ListDb lDb;
 
-        public void ProductRegistration(){
+        public ProductRegistration()
+        {
             lDb = new ListDb();
         }
-
         public void ebookReg(){
             Product prod = new Ebook();
             Locale.setDefault(Locale.US);

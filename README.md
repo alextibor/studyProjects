@@ -24,6 +24,7 @@
 
 ## Library
 ##### This is a simple console app that register a product, store in a list, retrive the products, show them and have a shopping cart.
+
 1. Library in C#
     * Status: Implementing the basic logic.
 

@@ -21,5 +21,5 @@ public class Book extends Product {
             ", author='" + author.getName() + "'" +
             ", PublishCompany='" + pc.getPcName() + "'" +
             "}";
-    } 
+    }
 }

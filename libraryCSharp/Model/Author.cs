@@ -5,11 +5,11 @@ namespace libraryCSharp.Model
         public string name { get; set; }
         public string email { get; set; }
         public int cpf { get; set; }
-    
-        //TODO Verificar com o lesley a diferenca dos toStrings
+        
+        //TODO IDENTIFICAR A DIFERENCA DOS TO STRINGS
         public override string ToString()
         {
-            return base.ToString();
+            return $"{nameof(name)}: {name}, {nameof(email)}: {email}, {nameof(cpf)}: {cpf}";
         }
     }
 }

@@ -58,7 +58,7 @@ public class ProductRegistration {
     }
 
     public void miniBookReg(){
-        Product prod = new MiniBook();
+        Product prod = new Book();
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
         System.out.println("Please, register a new  MiniBook: ");

@@ -71,10 +71,12 @@ public abstract class Product {
     }
 
     public void setAuthorName(String authorName){
+
         author.setName(authorName);
     }
 
     public void setPublishingCompanyName(String pcName){
+
         pc.setPcName(pcName);
     }
 }
