@@ -33,3 +33,6 @@
 
 2. Library in Java
     * Status: Needs to implement the shopping cart.
+
+## AluraCSharp
+##### The drafts of Alura's classes xD
