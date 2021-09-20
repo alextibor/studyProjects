@@ -23,7 +23,9 @@
 2. Chess in Java
 
 ## Library
-
+##### This is a simple console app that register a product, store in a list, retrive the products, show them and have a shopping cart.
 1. Library in C#
+    * Status: Implementing the basic logic.
 
 2. Library in Java
+    * Status: Needs to implement the shopping cart
