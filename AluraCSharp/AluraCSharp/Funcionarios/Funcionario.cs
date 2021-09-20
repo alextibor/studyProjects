@@ -6,7 +6,7 @@ namespace AluraCSharp.Funcionarios
         public string CPF { get; set; }
         public double Salario { get; set; }
 
-        public double GetBonificação()
+        public virtual double GetBonificacao()
         {
             return Salario * 0.10;
         }

@@ -8,10 +8,9 @@ namespace AluraCSharp
         
         public void Registrar(Funcionario funcionario)
         {
-            _totalBonificacao += funcionario.GetBonificação();
-            funcionario.GetBonificação();
+            _totalBonificacao += funcionario.GetBonificacao();
+            funcionario.GetBonificacao();
         }
-
         public double GetTotalBonificacao()
         {
             return _totalBonificacao;

@@ -5,6 +5,12 @@ namespace libraryCSharp.Model
 {
     public abstract class Product
     {
+        public Product()
+        {
+            pc = new PublishingCompany();
+            author = new Author();
+        }
+        
         public string productName { get; set; }
         public string description { get; set; }
         public double value { get; set; }
