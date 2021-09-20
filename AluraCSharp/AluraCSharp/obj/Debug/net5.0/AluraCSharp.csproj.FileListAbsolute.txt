@@ -1,0 +1,16 @@
+/home/t1b0r/Documents/studyProjects/AluraCSharp/AluraCSharp/bin/Debug/net5.0/AluraCSharp
+/home/t1b0r/Documents/studyProjects/AluraCSharp/AluraCSharp/bin/Debug/net5.0/AluraCSharp.deps.json
+/home/t1b0r/Documents/studyProjects/AluraCSharp/AluraCSharp/bin/Debug/net5.0/AluraCSharp.runtimeconfig.json
+/home/t1b0r/Documents/studyProjects/AluraCSharp/AluraCSharp/bin/Debug/net5.0/AluraCSharp.runtimeconfig.dev.json
+/home/t1b0r/Documents/studyProjects/AluraCSharp/AluraCSharp/bin/Debug/net5.0/AluraCSharp.dll
+/home/t1b0r/Documents/studyProjects/AluraCSharp/AluraCSharp/bin/Debug/net5.0/ref/AluraCSharp.dll
+/home/t1b0r/Documents/studyProjects/AluraCSharp/AluraCSharp/bin/Debug/net5.0/AluraCSharp.pdb
+/home/t1b0r/Documents/studyProjects/AluraCSharp/AluraCSharp/obj/Debug/net5.0/AluraCSharp.csproj.AssemblyReference.cache
+/home/t1b0r/Documents/studyProjects/AluraCSharp/AluraCSharp/obj/Debug/net5.0/AluraCSharp.GeneratedMSBuildEditorConfig.editorconfig
+/home/t1b0r/Documents/studyProjects/AluraCSharp/AluraCSharp/obj/Debug/net5.0/AluraCSharp.AssemblyInfoInputs.cache
+/home/t1b0r/Documents/studyProjects/AluraCSharp/AluraCSharp/obj/Debug/net5.0/AluraCSharp.AssemblyInfo.cs
+/home/t1b0r/Documents/studyProjects/AluraCSharp/AluraCSharp/obj/Debug/net5.0/AluraCSharp.csproj.CoreCompileInputs.cache
+/home/t1b0r/Documents/studyProjects/AluraCSharp/AluraCSharp/obj/Debug/net5.0/AluraCSharp.dll
+/home/t1b0r/Documents/studyProjects/AluraCSharp/AluraCSharp/obj/Debug/net5.0/ref/AluraCSharp.dll
+/home/t1b0r/Documents/studyProjects/AluraCSharp/AluraCSharp/obj/Debug/net5.0/AluraCSharp.pdb
+/home/t1b0r/Documents/studyProjects/AluraCSharp/AluraCSharp/obj/Debug/net5.0/AluraCSharp.genruntimeconfig.cache
