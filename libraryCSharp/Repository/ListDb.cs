@@ -14,8 +14,9 @@ namespace libraryCSharp.Repository
         }
         
         public void getListArray() {
-            foreach(Product product in list){
-                Console.WriteLine(product.ToString());
+            //list.ForEach(Console.WriteLine);
+            foreach(Product product in this.list){
+                Console.WriteLine(product);
             }
         }
 
