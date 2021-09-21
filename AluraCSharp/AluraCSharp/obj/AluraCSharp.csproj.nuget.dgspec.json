@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/t1b0r/Documents/studyProjects/AluraCSharp/AluraCSharp/AluraCSharp.csproj": {}
+    "/home/t1b0r/Documents/tiborProjects/studyProjects/AluraCSharp/AluraCSharp/AluraCSharp.csproj": {}
   },
   "projects": {
-    "/home/t1b0r/Documents/studyProjects/AluraCSharp/AluraCSharp/AluraCSharp.csproj": {
+    "/home/t1b0r/Documents/tiborProjects/studyProjects/AluraCSharp/AluraCSharp/AluraCSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/t1b0r/Documents/studyProjects/AluraCSharp/AluraCSharp/AluraCSharp.csproj",
+        "projectUniqueName": "/home/t1b0r/Documents/tiborProjects/studyProjects/AluraCSharp/AluraCSharp/AluraCSharp.csproj",
         "projectName": "AluraCSharp",
-        "projectPath": "/home/t1b0r/Documents/studyProjects/AluraCSharp/AluraCSharp/AluraCSharp.csproj",
+        "projectPath": "/home/t1b0r/Documents/tiborProjects/studyProjects/AluraCSharp/AluraCSharp/AluraCSharp.csproj",
         "packagesPath": "/home/t1b0r/.nuget/packages/",
-        "outputPath": "/home/t1b0r/Documents/studyProjects/AluraCSharp/AluraCSharp/obj/",
+        "outputPath": "/home/t1b0r/Documents/tiborProjects/studyProjects/AluraCSharp/AluraCSharp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/t1b0r/.nuget/NuGet/NuGet.Config"

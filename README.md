@@ -27,9 +27,6 @@
 
 1. Library in C#
     * Status: Implementing the basic logic.
-    * TODO:
-    * Implement counter of records performed in the repository.
-    * Implement the shopping cart.
 
 2. Library in Java
     * Status: Needs to implement the shopping cart.

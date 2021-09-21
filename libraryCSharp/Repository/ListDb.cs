@@ -7,6 +7,8 @@ namespace libraryCSharp.Repository
 {
     public class ListDb
     {
+        public static int ContadorRegistro { get; private set; }
+        
         private List<Product> list;
         
         public ListDb(){
@@ -23,6 +25,7 @@ namespace libraryCSharp.Repository
         public void setList(Product prod)
         {
             this.list.Add(prod);
+            ContadorRegistro++;
         }
     }
 }

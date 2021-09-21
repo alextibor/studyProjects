@@ -7,8 +7,8 @@ namespace libraryCSharp.Model
     {
         public Product()
         {
-            pc = new PublishingCompany();
-            author = new Author();
+            PublishingCompany pc = new PublishingCompany();
+            Author author = new Author();
         }
         
         public string productName { get; set; }

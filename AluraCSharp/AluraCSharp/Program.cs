@@ -20,6 +20,8 @@ namespace AluraCSharp
             roberta.CPF = "456.789.123-45";
             roberta.Salario = 5000;
             gerenciador.Registrar(roberta);
+
+            Console.WriteLine(Funcionario.TotalDeFuncionarios);
             
             Console.WriteLine(carlos.Nome);
             Console.WriteLine(carlos.GetBonificacao());

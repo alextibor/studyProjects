@@ -12,3 +12,6 @@ namespace libraryCSharp
         }
     }
 }
+
+//TODO: Implement counter of records performed in the repository.
+//TODO: Implement the shopping cart.

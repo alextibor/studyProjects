@@ -13,6 +13,7 @@ namespace libraryCSharp.Controller
             lDb = new ListDb();
         }
         public void ebookReg(){
+            
             Product prod = new Ebook();
             
             Console.WriteLine("Please, register a new Ebook: ");
@@ -33,6 +34,7 @@ namespace libraryCSharp.Controller
         public void magazineReg()
         {
             Product prod = new Magazine();
+            
             Console.WriteLine("Please, register a new Magazine: ");
             Console.WriteLine("What is the name of the Magazine?");
             prod.productName = Console.ReadLine();
@@ -46,7 +48,9 @@ namespace libraryCSharp.Controller
             lDb.setList(prod);
         }
         public void miniBookReg(){
+            
             Product prod = new MiniBook();
+            
             Console.WriteLine("Please, register a new MiniBook: ");
             Console.WriteLine("What is the name of the MiniBook?");
             prod.productName = Console.ReadLine();
@@ -63,7 +67,9 @@ namespace libraryCSharp.Controller
             lDb.setList(prod);
         }
         public void physicalBookReg(){
+            
             Product prod = new MiniBook();
+            
             Console.WriteLine("Please, register a new Book: ");
             Console.WriteLine("What is the name of the Book?");
             prod.productName = Console.ReadLine();
