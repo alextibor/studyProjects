@@ -15,6 +15,11 @@ namespace AluraCSharp.Funcionarios
             TotalDeFuncionarios++;
         }
 
+        public virtual void AumentarSalario()
+        {
+            Salario += 1.1;
+        }
+
         public virtual double GetBonificacao()
         {
             return Salario * 0.10;
