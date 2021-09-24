@@ -1,0 +1,16 @@
+/home/t1b0r/Documents/tiborProjects/studyProjects/AluraCSharp/EntendendoExcecoes/bin/Debug/net5.0/EntendendoExcecoes
+/home/t1b0r/Documents/tiborProjects/studyProjects/AluraCSharp/EntendendoExcecoes/bin/Debug/net5.0/EntendendoExcecoes.deps.json
+/home/t1b0r/Documents/tiborProjects/studyProjects/AluraCSharp/EntendendoExcecoes/bin/Debug/net5.0/EntendendoExcecoes.runtimeconfig.json
+/home/t1b0r/Documents/tiborProjects/studyProjects/AluraCSharp/EntendendoExcecoes/bin/Debug/net5.0/EntendendoExcecoes.runtimeconfig.dev.json
+/home/t1b0r/Documents/tiborProjects/studyProjects/AluraCSharp/EntendendoExcecoes/bin/Debug/net5.0/EntendendoExcecoes.dll
+/home/t1b0r/Documents/tiborProjects/studyProjects/AluraCSharp/EntendendoExcecoes/bin/Debug/net5.0/ref/EntendendoExcecoes.dll
+/home/t1b0r/Documents/tiborProjects/studyProjects/AluraCSharp/EntendendoExcecoes/bin/Debug/net5.0/EntendendoExcecoes.pdb
+/home/t1b0r/Documents/tiborProjects/studyProjects/AluraCSharp/EntendendoExcecoes/obj/Debug/net5.0/EntendendoExcecoes.csproj.AssemblyReference.cache
+/home/t1b0r/Documents/tiborProjects/studyProjects/AluraCSharp/EntendendoExcecoes/obj/Debug/net5.0/EntendendoExcecoes.GeneratedMSBuildEditorConfig.editorconfig
+/home/t1b0r/Documents/tiborProjects/studyProjects/AluraCSharp/EntendendoExcecoes/obj/Debug/net5.0/EntendendoExcecoes.AssemblyInfoInputs.cache
+/home/t1b0r/Documents/tiborProjects/studyProjects/AluraCSharp/EntendendoExcecoes/obj/Debug/net5.0/EntendendoExcecoes.AssemblyInfo.cs
+/home/t1b0r/Documents/tiborProjects/studyProjects/AluraCSharp/EntendendoExcecoes/obj/Debug/net5.0/EntendendoExcecoes.csproj.CoreCompileInputs.cache
+/home/t1b0r/Documents/tiborProjects/studyProjects/AluraCSharp/EntendendoExcecoes/obj/Debug/net5.0/EntendendoExcecoes.dll
+/home/t1b0r/Documents/tiborProjects/studyProjects/AluraCSharp/EntendendoExcecoes/obj/Debug/net5.0/ref/EntendendoExcecoes.dll
+/home/t1b0r/Documents/tiborProjects/studyProjects/AluraCSharp/EntendendoExcecoes/obj/Debug/net5.0/EntendendoExcecoes.pdb
+/home/t1b0r/Documents/tiborProjects/studyProjects/AluraCSharp/EntendendoExcecoes/obj/Debug/net5.0/EntendendoExcecoes.genruntimeconfig.cache
