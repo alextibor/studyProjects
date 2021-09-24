@@ -4,7 +4,7 @@ namespace AluraCSharp.Funcionarios
 {
     public class Diretor : Funcionario
     {
-        public Diretor()
+        public Diretor(string cpf) : base(5000, cpf)
         {
             Console.WriteLine("Criando diretor!");
         }
