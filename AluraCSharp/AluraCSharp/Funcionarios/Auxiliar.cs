@@ -1,12 +1,10 @@
-using System;
-
 namespace AluraCSharp.Funcionarios
 {
-    public class Diretor : Funcionario
+    public class Auxiliar : Funcionario
     {
-        public Diretor(string cpf) : base(5000, cpf)
+        public Auxiliar(string cpf) : base(1500, cpf)
         {
-            Console.WriteLine("Criando diretor!");
+            
         }
 
         public override void AumentarSalario()
@@ -16,7 +14,7 @@ namespace AluraCSharp.Funcionarios
 
         public override double GetBonificacao()
         {
-            return Salario * 0.25;
+            return Salario * 0.70;
         }
     }
 }
