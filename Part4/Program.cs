@@ -9,8 +9,7 @@ namespace AluraCSharpOO
         static void Main(string[] args)
         {
             ContaCorrente conta = new ContaCorrente(7480, 874520);
-            Console.WriteLine();
-
+            Console.WriteLine(ContaCorrente.TaxaOperacao);
             Console.ReadLine();
         }
     }
