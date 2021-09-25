@@ -1,0 +1,16 @@
+/home/t1b0r/Documents/tiborProjects/studyProjects/ConsoleTimeLoser/bin/Debug/net5.0/ConsoleTimeLoser
+/home/t1b0r/Documents/tiborProjects/studyProjects/ConsoleTimeLoser/bin/Debug/net5.0/ConsoleTimeLoser.deps.json
+/home/t1b0r/Documents/tiborProjects/studyProjects/ConsoleTimeLoser/bin/Debug/net5.0/ConsoleTimeLoser.runtimeconfig.json
+/home/t1b0r/Documents/tiborProjects/studyProjects/ConsoleTimeLoser/bin/Debug/net5.0/ConsoleTimeLoser.runtimeconfig.dev.json
+/home/t1b0r/Documents/tiborProjects/studyProjects/ConsoleTimeLoser/bin/Debug/net5.0/ConsoleTimeLoser.dll
+/home/t1b0r/Documents/tiborProjects/studyProjects/ConsoleTimeLoser/bin/Debug/net5.0/ref/ConsoleTimeLoser.dll
+/home/t1b0r/Documents/tiborProjects/studyProjects/ConsoleTimeLoser/bin/Debug/net5.0/ConsoleTimeLoser.pdb
+/home/t1b0r/Documents/tiborProjects/studyProjects/ConsoleTimeLoser/obj/Debug/net5.0/ConsoleTimeLoser.csproj.AssemblyReference.cache
+/home/t1b0r/Documents/tiborProjects/studyProjects/ConsoleTimeLoser/obj/Debug/net5.0/ConsoleTimeLoser.GeneratedMSBuildEditorConfig.editorconfig
+/home/t1b0r/Documents/tiborProjects/studyProjects/ConsoleTimeLoser/obj/Debug/net5.0/ConsoleTimeLoser.AssemblyInfoInputs.cache
+/home/t1b0r/Documents/tiborProjects/studyProjects/ConsoleTimeLoser/obj/Debug/net5.0/ConsoleTimeLoser.AssemblyInfo.cs
+/home/t1b0r/Documents/tiborProjects/studyProjects/ConsoleTimeLoser/obj/Debug/net5.0/ConsoleTimeLoser.csproj.CoreCompileInputs.cache
+/home/t1b0r/Documents/tiborProjects/studyProjects/ConsoleTimeLoser/obj/Debug/net5.0/ConsoleTimeLoser.dll
+/home/t1b0r/Documents/tiborProjects/studyProjects/ConsoleTimeLoser/obj/Debug/net5.0/ref/ConsoleTimeLoser.dll
+/home/t1b0r/Documents/tiborProjects/studyProjects/ConsoleTimeLoser/obj/Debug/net5.0/ConsoleTimeLoser.pdb
+/home/t1b0r/Documents/tiborProjects/studyProjects/ConsoleTimeLoser/obj/Debug/net5.0/ConsoleTimeLoser.genruntimeconfig.cache

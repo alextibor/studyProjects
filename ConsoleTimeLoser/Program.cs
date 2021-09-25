@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Globalization;
+using System.Reflection.Metadata;
+using System.Timers;
 
 namespace ConsoleTimeLoser
 {
@@ -6,7 +9,18 @@ namespace ConsoleTimeLoser
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Timer timer = new Timer(1000);
+            timer.Elapsed += TimerOnElapsed;
+            
+            timer.Start();
+            
+            Console.ReadKey();
+            timer.Stop();
+        }
+
+        private static void TimerOnElapsed(object sender, ElapsedEventArgs e)
+        {
+            Console.WriteLine(DateTime.Now.ToString(CultureInfo.InvariantCulture));
         }
     }
 }
