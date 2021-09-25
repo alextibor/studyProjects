@@ -6,11 +6,19 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Model" />
+      <Compile Remove="Model\TimeEntry.cs" />
+      <Compile Remove="TImer2\**" />
+      <Compile Remove="Model\**" />
     </ItemGroup>
 
     <ItemGroup>
-      <Compile Remove="Model\TimeEntry.cs" />
+      <EmbeddedResource Remove="TImer2\**" />
+      <EmbeddedResource Remove="Model\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="TImer2\**" />
+      <None Remove="Model\**" />
     </ItemGroup>
 
 </Project>

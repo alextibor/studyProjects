@@ -3,6 +3,8 @@ using System.Globalization;
 using System.Reflection.Metadata;
 using System.Timers;
 
+//https://www.youtube.com/watch?v=2tyKPpoLV94
+
 namespace ConsoleTimeLoser
 {
     class Program
