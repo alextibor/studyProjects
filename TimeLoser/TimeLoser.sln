@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeLoser", "TimeLoser.csproj", "{D925F9C9-E1A7-4F9B-AC5B-4F94CC8AF291}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D925F9C9-E1A7-4F9B-AC5B-4F94CC8AF291}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D925F9C9-E1A7-4F9B-AC5B-4F94CC8AF291}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D925F9C9-E1A7-4F9B-AC5B-4F94CC8AF291}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D925F9C9-E1A7-4F9B-AC5B-4F94CC8AF291}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
