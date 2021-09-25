@@ -6,25 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3553a29-44fe-4b58-a4a0-912cd199b298" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TImer2/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TImer2/TImer2.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TImer2/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TImer2/obj/Debug/net5.0/TImer2.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TImer2/obj/Debug/net5.0/TImer2.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TImer2/obj/Debug/net5.0/TImer2.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TImer2/obj/Debug/net5.0/TImer2.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TImer2/obj/TImer2.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TImer2/obj/TImer2.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TImer2/obj/TImer2.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TImer2/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TImer2/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TImer2/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TImer2/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleTimeLoser/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleTimeLoser/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleTimeLoser.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleTimeLoser.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleTimeLoser.sln" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleTimeLoser.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/ConsoleTimeLoser.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/ConsoleTimeLoser.csproj.CoreCompileInputs.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1632590824453</updated>
       <workItem from="1632590835581" duration="184000" />
-      <workItem from="1632592867509" duration="4614000" />
+      <workItem from="1632592867509" duration="4959000" />
     </task>
     <servers />
   </component>
