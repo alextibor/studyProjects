@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/t1b0r/Documents/tiborProjects/estudos/xadrezCSharp/xadrezCSharp/xadrezCSharp/xadrezCSharp.csproj",
+      "projectUniqueName": "/home/t1b0r/Documents/tiborProjects/studyProjects/xadrezCSharp/xadrezCSharp/xadrezCSharp.csproj",
       "projectName": "xadrezCSharp",
-      "projectPath": "/home/t1b0r/Documents/tiborProjects/estudos/xadrezCSharp/xadrezCSharp/xadrezCSharp/xadrezCSharp.csproj",
+      "projectPath": "/home/t1b0r/Documents/tiborProjects/studyProjects/xadrezCSharp/xadrezCSharp/xadrezCSharp.csproj",
       "packagesPath": "/home/t1b0r/.nuget/packages/",
-      "outputPath": "/home/t1b0r/Documents/tiborProjects/estudos/xadrezCSharp/xadrezCSharp/xadrezCSharp/obj/",
+      "outputPath": "/home/t1b0r/Documents/tiborProjects/studyProjects/xadrezCSharp/xadrezCSharp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/t1b0r/.nuget/NuGet/NuGet.Config"
