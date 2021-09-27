@@ -1,5 +1,5 @@
 ﻿using System;
-using CSharpChess.Board;
+using CSharpChess.board;
 
 namespace CSharpChess
 {
@@ -7,9 +7,7 @@ namespace CSharpChess
     {
         static void Main(string[] args)
         {
-            Position P = new Position(3, 4);
-
-            Console.WriteLine("Position: " + P);
+            Board bd = new Board(8, 8);
 
             Console.ReadKey();
         }

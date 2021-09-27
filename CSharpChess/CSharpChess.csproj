@@ -5,4 +5,17 @@
         <TargetFramework>net5.0</TargetFramework>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Compile Remove="tte.cs" />
+      <Compile Remove="teste\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="teste\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="teste\**" />
+    </ItemGroup>
+
 </Project>

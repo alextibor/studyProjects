@@ -1,4 +1,4 @@
-namespace CSharpChess.Board
+namespace CSharpChess.board
 {
     public class Position
     {
