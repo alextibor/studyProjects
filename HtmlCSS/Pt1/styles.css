@@ -13,8 +13,12 @@ body {
     font-style: italic;
 }
 
-h1 {
-    text-align: center; 
+.titulo-centralizado {
+    text-align: center;
+}
+
+.titulo-principal {
+    padding-left: 20px;
 }
 
 p {
@@ -23,4 +27,25 @@ p {
 
 #cacilds {
     font-style: italic;
+}
+
+.intro {
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+.samuel {
+    background-color: aqua;
+    padding: 20px;
+}
+
+.jpgsamuel {
+    width: 50%;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
 }
