@@ -8,6 +8,8 @@ namespace CSharpChess
         static void Main(string[] args)
         {
             Board bd = new Board(8, 8);
+            
+            Screen.printBoard(bd);
 
             Console.ReadKey();
         }
