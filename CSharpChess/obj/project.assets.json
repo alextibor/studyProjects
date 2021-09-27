@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/t1b0r/Documents/tiborProjects/studyProjects/CSharpChess/CSharpChess.csproj",
+      "projectUniqueName": "/home/t1b0r/Documents/studyProjects/CSharpChess/CSharpChess.csproj",
       "projectName": "CSharpChess",
-      "projectPath": "/home/t1b0r/Documents/tiborProjects/studyProjects/CSharpChess/CSharpChess.csproj",
+      "projectPath": "/home/t1b0r/Documents/studyProjects/CSharpChess/CSharpChess.csproj",
       "packagesPath": "/home/t1b0r/.nuget/packages/",
-      "outputPath": "/home/t1b0r/Documents/tiborProjects/studyProjects/CSharpChess/obj/",
+      "outputPath": "/home/t1b0r/Documents/studyProjects/CSharpChess/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/t1b0r/.nuget/NuGet/NuGet.Config"
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -9,7 +9,6 @@ namespace CSharpChess.chess
         {
             
         }
-
         public override string ToString()
         {
             return "K";

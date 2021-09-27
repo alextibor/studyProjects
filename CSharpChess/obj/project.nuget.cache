@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MunPOhn4EzZZoF8en2h5Qqg12m/rJ2d1m2p/JW+kMHrB8KnguaNWOyfR9AcehDoZXWoBE49vuKbO7TT+gZJi9w==",
+  "dgSpecHash": "4P/5k6biCGckXA7K3i/WInt7pTqMALCyH4gTPWgucjHp1d27hpgIOimXMtQ3BISsHfJtxjFRgufYo2dRZpnfVA==",
   "success": true,
-  "projectFilePath": "/home/t1b0r/Documents/tiborProjects/studyProjects/CSharpChess/CSharpChess.csproj",
+  "projectFilePath": "/home/t1b0r/Documents/studyProjects/CSharpChess/CSharpChess.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
