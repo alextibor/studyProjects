@@ -42,6 +42,21 @@ namespace CSharpChess.board
             p.position = pos;
         }
 
+        public Piece removePiece(Position pos)
+        {
+            if (piece(pos) == null)
+            {
+                return null;
+            }
+            else
+            {
+                Piece aux = piece(pos);
+                aux.position = null;
+                pieces[pos.line, pos.column] = null;
+                return aux;
+            }
+        }
+
         public bool validPosition(Position pos)
         {
             if (pos.line < 0 || pos.line >= lines || pos.column < 0 || pos.column >= columns)

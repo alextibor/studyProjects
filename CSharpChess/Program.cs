@@ -8,16 +8,25 @@ namespace CSharpChess
     {
         static void Main(string[] args)
         {
-            Board bd = new Board(8, 8);
-
             try
             {
-                bd.putPiece(new Tower(bd, Color.Black), new Position(0, 0));
-                bd.putPiece(new Tower(bd, Color.Black), new Position(1, 3));
-                bd.putPiece(new King(bd, Color.Black), new Position(0, 2));
-                bd.putPiece(new King(bd, Color.White), new Position(3, 5));
+                ChessMatch match = new ChessMatch();
+
+                while (!match.finished)
+                {
+                    Console.Clear();
+                    Screen.printBoard(match.bd);
+
+                    Console.WriteLine();
+                    Console.WriteLine("Origin: ");
+                    Position origin = Screen.readChessPosition().ToPosition();
+                    Console.WriteLine("Destino: ");
+                    Position destiny = Screen.readChessPosition().ToPosition();
+                    
+                    match.performMove(origin, destiny);
+                }
                 
-                Screen.printBoard(bd);
+                Screen.printBoard(match.bd);
             }
             catch (BoardException e)
             {

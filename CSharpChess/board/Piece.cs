@@ -14,5 +14,10 @@ namespace CSharpChess.board
             this.color = color;
             this.moveQtd = 0;
         }
+
+        public void incrementMoveQtd()
+        {
+            moveQtd++;
+        }
     }
 }
