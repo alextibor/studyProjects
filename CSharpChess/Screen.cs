@@ -1,4 +1,5 @@
 using System;
+using System.Globalization;
 using CSharpChess.board;
 using CSharpChess.chess;
 
@@ -13,43 +14,66 @@ namespace CSharpChess
                 Console.Write(8 - l + " ");
                 for (int c=0; c<bd.columns; c++)
                 {
-                    if (bd.piece(l, c) == null)
-                    {
-                        Console.Write("- ");
-                    }
-                    else
-                    {
-                        printPiece(bd.piece(l,c));
-                        Console.Write(" ");
-                    }
+                    printPiece(bd.piece(l, c));
                 }
                 Console.WriteLine();
             }
-
-            Console.WriteLine(" a b c d e f g h");
+            Console.WriteLine("  a b c d e f g h");
         }
-
-        public static void printPiece(Piece piece)
+        
+        public static void printBoard(Board bd, bool[,] possiblePositions)
         {
-            if (piece.color == Color.White)
+            ConsoleColor originalBackground = Console.BackgroundColor;
+            ConsoleColor changedBackground = ConsoleColor.DarkGray;
+            
+            for (int l=0; l<bd.lines; l++)
             {
-                Console.Write(piece);
+                Console.Write(8 - l + " ");
+                for (int c=0; c<bd.columns; c++)
+                {
+                    if (possiblePositions[l, c])
+                    {
+                        Console.BackgroundColor = changedBackground;
+                    }
+                    else
+                    {
+                        Console.BackgroundColor = originalBackground;
+                    }
+                    printPiece(bd.piece(l, c));
+                }
+                Console.WriteLine();
             }
-            else
-            {
-                ConsoleColor aux = Console.ForegroundColor;
-                Console.ForegroundColor = ConsoleColor.Yellow;
-                Console.Write(piece);
-                Console.ForegroundColor = aux;
-            }
+            Console.WriteLine("  a b c d e f g h");
+            Console.BackgroundColor = originalBackground;
         }
-
         public static ChessPosition readChessPosition()
         {
             string s = Console.ReadLine();
             char column = s[0];
             int line = int.Parse(s[1] + "");
             return new ChessPosition(column, line);
+        }
+        public static void printPiece(Piece piece)
+        {
+            if (piece == null)
+            {
+                Console.Write("- ");
+            }
+            else
+            {
+                if (piece.color == Color.White)
+                {
+                    Console.Write(piece);
+                }
+                else
+                {
+                    ConsoleColor aux = Console.ForegroundColor;
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.Write(piece);
+                    Console.ForegroundColor = aux;
+                }
+                Console.Write(" ");
+            }
         }
     }
 }

@@ -20,6 +20,11 @@ namespace CSharpChess
                     Console.WriteLine();
                     Console.WriteLine("Origin: ");
                     Position origin = Screen.readChessPosition().ToPosition();
+
+                    bool[,] possiblePositions = match.bd.piece(origin).possibleMoves();
+                    
+                    Console.Clear();
+                    Screen.printBoard(match.bd, possiblePositions);
                     Console.WriteLine("Destino: ");
                     Position destiny = Screen.readChessPosition().ToPosition();
                     
