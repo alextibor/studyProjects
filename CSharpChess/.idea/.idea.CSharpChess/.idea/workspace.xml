@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96f94ffb-1f56-4157-8fe1-e0ce92435d9b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CSharpChess/tabuleiro/Cor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSharpChess/tabuleiro/Peca.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSharpChess/tabuleiro/Tabuleiro.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSharpChess/Tela.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CSharpChess/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CSharpChess/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSharpChess/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpChess/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpChess/tabuleiro/Tabuleiro.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpChess/tabuleiro/Tabuleiro.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1632955195349</updated>
-      <workItem from="1632955201137" duration="1462000" />
+      <workItem from="1632955201137" duration="2075000" />
     </task>
     <servers />
   </component>
