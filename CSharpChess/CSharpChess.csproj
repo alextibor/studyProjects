@@ -18,4 +18,9 @@
       <None Remove="teste\**" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="board" />
+      <Folder Include="chess" />
+    </ItemGroup>
+
 </Project>
