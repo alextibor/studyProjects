@@ -40,6 +40,7 @@ namespace CSharpChess
                         Console.BackgroundColor = originalBackground;
                     }
                     printPiece(bd.piece(l, c));
+                    Console.BackgroundColor = originalBackground;
                 }
                 Console.WriteLine();
             }

@@ -26,6 +26,8 @@ namespace CSharpChess.chess
             Piece pieceCaptured = bd.removePiece(destiny);
             bd.putPiece(p, destiny);
         }
+        
+        
 
         private void PutPieces()
         {
