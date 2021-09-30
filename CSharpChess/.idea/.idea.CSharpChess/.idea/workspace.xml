@@ -5,12 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96f94ffb-1f56-4157-8fe1-e0ce92435d9b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CSharpChess/xadrez/Rei.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSharpChess/xadrez/Torre.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSharpChess/board/Board.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSharpChess/board/Color.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSharpChess/board/Piece.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSharpChess/board/Position.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSharpChess/chess/King.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSharpChess/chess/Tower.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CSharpChess/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CSharpChess/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSharpChess/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpChess/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSharpChess/tabuleiro/Peca.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpChess/tabuleiro/Peca.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSharpChess/tabuleiro/Tabuleiro.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpChess/tabuleiro/Tabuleiro.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpChess/Tela.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpChess/Screen.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpChess/bin/Debug/net5.0/CSharpChess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpChess/bin/Debug/net5.0/CSharpChess.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpChess/bin/Debug/net5.0/CSharpChess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpChess/bin/Debug/net5.0/CSharpChess.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpChess/bin/Debug/net5.0/ref/CSharpChess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpChess/bin/Debug/net5.0/ref/CSharpChess.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpChess/obj/Debug/net5.0/CSharpChess.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpChess/obj/Debug/net5.0/CSharpChess.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpChess/obj/Debug/net5.0/CSharpChess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpChess/obj/Debug/net5.0/CSharpChess.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpChess/obj/Debug/net5.0/CSharpChess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpChess/obj/Debug/net5.0/CSharpChess.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpChess/obj/Debug/net5.0/ref/CSharpChess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpChess/obj/Debug/net5.0/ref/CSharpChess.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpChess/tabuleiro/Cor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpChess/tabuleiro/Peca.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpChess/tabuleiro/Posicao.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpChess/tabuleiro/Tabuleiro.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpChess/xadrez/Rei.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpChess/xadrez/Torre.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +35,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/CSharpChess/board/Position.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1ypizYWKsWhp607YKkkYJbbqNcq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -65,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1632955195349</updated>
-      <workItem from="1632955201137" duration="3365000" />
+      <workItem from="1632955201137" duration="5468000" />
     </task>
     <servers />
   </component>
