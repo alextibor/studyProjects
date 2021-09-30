@@ -14,5 +14,10 @@ namespace CSharpChess.board
             this.color = color;
             this.amountMoves = 0;
         }
+
+        public void IncrementAmountMoves()
+        {
+            amountMoves++;
+        }
     }
 }

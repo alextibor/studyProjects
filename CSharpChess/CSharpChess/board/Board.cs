@@ -1,3 +1,5 @@
+using System.Globalization;
+
 namespace CSharpChess.board
 {
     public class Board
@@ -37,6 +39,21 @@ namespace CSharpChess.board
             }
             pieces[pos.line, pos.column] = p;
             p.position = pos;
+        }
+
+        public Piece RemovePiece(Position pos)
+        {
+            if (ReturnBoardPiece(pos) == null)
+            {
+                return null;
+            }
+            else
+            {
+                Piece aux = ReturnBoardPiece(pos);
+                aux.position = null;
+                pieces[pos.line, pos.column] = null;
+                return aux;
+            }
         }
 
         public bool ValidPosition(Position pos)
