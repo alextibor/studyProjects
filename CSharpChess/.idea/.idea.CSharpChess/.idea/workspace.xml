@@ -5,18 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96f94ffb-1f56-4157-8fe1-e0ce92435d9b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CSharpChess/chess/ChessMatch.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CSharpChess/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CSharpChess/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSharpChess/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpChess/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSharpChess/bin/Debug/net5.0/CSharpChess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpChess/bin/Debug/net5.0/CSharpChess.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSharpChess/bin/Debug/net5.0/CSharpChess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpChess/bin/Debug/net5.0/CSharpChess.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSharpChess/bin/Debug/net5.0/ref/CSharpChess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpChess/bin/Debug/net5.0/ref/CSharpChess.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSharpChess/board/Board.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpChess/board/Board.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSharpChess/board/Piece.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpChess/board/Piece.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSharpChess/obj/Debug/net5.0/CSharpChess.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpChess/obj/Debug/net5.0/CSharpChess.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSharpChess/obj/Debug/net5.0/CSharpChess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpChess/obj/Debug/net5.0/CSharpChess.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSharpChess/obj/Debug/net5.0/CSharpChess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpChess/obj/Debug/net5.0/CSharpChess.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSharpChess/obj/Debug/net5.0/ref/CSharpChess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpChess/obj/Debug/net5.0/ref/CSharpChess.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpChess/Screen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpChess/Screen.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpChess/chess/ChessMatch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpChess/chess/ChessMatch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpChess/obj/CSharpChess.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpChess/obj/CSharpChess.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpChess/obj/Debug/net5.0/CSharpChess.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpChess/obj/Debug/net5.0/CSharpChess.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpChess/obj/Debug/net5.0/CSharpChess.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpChess/obj/Debug/net5.0/CSharpChess.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpChess/obj/Debug/net5.0/CSharpChess.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpChess/obj/Debug/net5.0/CSharpChess.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpChess/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpChess/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpChess/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpChess/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpChess/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpChess/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpChess/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpChess/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1632955195349</updated>
       <workItem from="1632955201137" duration="9883000" />
+      <workItem from="1632976482866" duration="643000" />
     </task>
     <servers />
   </component>
@@ -94,6 +95,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

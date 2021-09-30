@@ -13,10 +13,21 @@ namespace CSharpChess
         {
             try
             {
-                ChessMatch cm = new ChessMatch();
-            
-                
-                Screen.PrintBoard(cm.bd);
+                ChessMatch match = new ChessMatch();
+
+                while (!match.FinishedMove)
+                {
+                    Console.Clear();
+                    Screen.PrintBoard(match.bd);
+
+                    Console.WriteLine();
+                    Console.WriteLine("Origin: ");
+                    Position origin = Screen.ReadChessPosition().toPosition();
+                    Console.WriteLine("Destiny: ");
+                    Position destiny = Screen.ReadChessPosition().toPosition();
+
+                    match.PerformMovement(origin, destiny);
+                }
             }
             catch (Exception e)
             {

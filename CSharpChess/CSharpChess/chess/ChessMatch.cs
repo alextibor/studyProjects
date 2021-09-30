@@ -8,6 +8,7 @@ namespace CSharpChess.chess
         public Board bd { get; set; }
         private int turn;
         private Color currentPlayer;
+        public bool FinishedMove { get; private set; }
 
         public ChessMatch()
         {
