@@ -10,7 +10,13 @@ namespace CSharpChess.board
             this.line = line;
             this.column = column;
         }
-        
+
+        public void defineValues(int line, int column)
+        {
+            this.line = line;
+            this.column = column;
+        }
+
         public override string ToString()
         {
             return line

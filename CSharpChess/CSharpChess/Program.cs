@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Net.WebSockets;
-using System.Security.Cryptography.X509Certificates;
-using System.Xml;
 using CSharpChess.board;
 using CSharpChess.chess;
 
@@ -15,23 +12,32 @@ namespace CSharpChess
             {
                 ChessMatch match = new ChessMatch();
 
-                while (!match.FinishedMove)
+                while (!match.finished)
                 {
                     Console.Clear();
-                    Screen.PrintBoard(match.bd);
+                    Screen.printBoard(match.bd);
 
                     Console.WriteLine();
                     Console.WriteLine("Origin: ");
-                    Position origin = Screen.ReadChessPosition().toPosition();
-                    Console.WriteLine("Destiny: ");
-                    Position destiny = Screen.ReadChessPosition().toPosition();
+                    Position origin = Screen.readChessPosition().ToPosition();
 
-                    match.PerformMovement(origin, destiny);
+                    bool[,] possiblePositions = match.bd.Piece(origin).possibleMoves();
+                    
+                    Console.Clear();
+                    Screen.printBoard(match.bd, possiblePositions);
+
+                    Console.WriteLine();
+                    Console.WriteLine("Destino: ");
+                    Position destiny = Screen.readChessPosition().ToPosition();
+                    
+                    match.performMove(origin, destiny);
                 }
+                
+                
             }
-            catch (Exception e)
+            catch (BoardException e)
             {
-                Console.WriteLine(e);
+                Console.WriteLine(e.Message);
             }
             Console.ReadLine();
         }
