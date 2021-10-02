@@ -20,6 +20,29 @@ namespace CSharpChess.board
             moveQtd++;
         }
 
-        public abstract bool[,] possibleMoves();
+        public bool ThereArePossibleMovements()
+        {
+            bool[,] mat = PossibleMoves();
+            for (int l = 0; l < bd.lines; l++)
+            {
+                for (int c = 0; c < bd.columns; c++)
+                {
+                    if (mat[l, c] == true)
+                    {
+                        return true;
+                    }
+                }
+            }
+            return false;
+        }
+
+        public bool CanMoveTo(Position pos)
+        {
+            return PossibleMoves()[pos.line, pos.column];
+        }
+
+        public abstract bool[,] PossibleMoves();
+
+        
     }
 }

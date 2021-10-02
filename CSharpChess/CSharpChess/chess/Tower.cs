@@ -21,7 +21,7 @@ namespace CSharpChess.chess
             return p == null || p.color != color;
         }
 
-        public override bool[,] possibleMoves()
+        public override bool[,] PossibleMoves()
         {
             bool[,] mat = new bool[bd.lines, bd.columns];
             
