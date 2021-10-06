@@ -6,8 +6,8 @@ namespace CSharpChess.chess
     public class ChessMatch
     {
         public Board bd { get; private set; }
-        public int turn { get; private set; }
-        public Color currentPlayer { get; private set; }
+        private int turn;
+        private Color currentPlayer;
         public bool finished { get; private set; }
 
         public ChessMatch()
@@ -19,55 +19,12 @@ namespace CSharpChess.chess
             PutPieces();
         }
 
-        public void PerformMove(Position origin, Position destiny)
+        public void performMove(Position origin, Position destiny)
         {
             Piece p = bd.RemovePiece(origin);
             p.incrementMoveQtd();
             Piece pieceCaptured = bd.RemovePiece(destiny);
             bd.PutPiece(p, destiny);
-        }
-
-        public void PerformPlay(Position origin, Position destiny)
-        {
-            PerformMove(origin, destiny);
-            turn++;
-            ChangePlayer();
-
-        }
-
-        public void ValidateOriginPosition(Position pos)
-        {
-            if(bd.Piece(pos) == null)
-            {
-                throw new BoardException("There is no piece in the chosen position of origin");
-            }
-            if (currentPlayer != bd.Piece(pos).color)
-            {
-                throw new BoardException("The chosen piece is not yours");
-            }
-            if (!bd.Piece(pos).ThereArePossibleMovements())
-            {
-                throw new BoardException("There are no moves for the chosen piece");
-            }
-        }
-
-        public void ValidateDestinyPosition(Position origin, Position destiny)
-        {
-            if (!bd.Piece(origin).CanMoveTo(destiny))
-            {
-                throw new BoardException("Invalid destiny position!");
-            }
-        }
-
-        private void ChangePlayer()
-        {
-            if (currentPlayer == Color.White)
-            {
-                currentPlayer = Color.Black;
-            } else
-            {
-                currentPlayer = Color.White;
-            }
         }
 
         private void PutPieces()
