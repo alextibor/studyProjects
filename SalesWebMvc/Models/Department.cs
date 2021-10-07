@@ -16,7 +16,7 @@ namespace SalesWebMvc.Models
 
         }
 
-        public Department(int id, string name, int myProperty)
+        public Department(int id, string name)
         {
             Id = id;
             Name = name;
