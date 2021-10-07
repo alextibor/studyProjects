@@ -8,25 +8,25 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\alex.tibor\\.nuget\\packages\\": {},
+    "C:\\Users\\User\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alex.tibor\\source\\repos\\studyProjects\\CSharpChess\\CSharpChess\\CSharpChess.csproj",
+      "projectUniqueName": "C:\\Users\\User\\source\\repos\\alextibor\\studyProjects\\CSharpChess\\CSharpChess\\CSharpChess.csproj",
       "projectName": "CSharpChess",
-      "projectPath": "C:\\Users\\alex.tibor\\source\\repos\\studyProjects\\CSharpChess\\CSharpChess\\CSharpChess.csproj",
-      "packagesPath": "C:\\Users\\alex.tibor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alex.tibor\\source\\repos\\studyProjects\\CSharpChess\\CSharpChess\\obj\\",
+      "projectPath": "C:\\Users\\User\\source\\repos\\alextibor\\studyProjects\\CSharpChess\\CSharpChess\\CSharpChess.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\source\\repos\\alextibor\\studyProjects\\CSharpChess\\CSharpChess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\alex.tibor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -68,7 +68,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -20,6 +20,22 @@ namespace CSharpChess.board
             moveQtd++;
         }
 
+        public bool ThereIsPossibleMovement()
+        {
+            bool[,] mat = possibleMoves();
+            for (int i=0; i<bd.lines; i++)
+            {
+                for (int j=0; j<bd.columns; j++)
+                {
+                    if(mat[i, j])
+                    {
+                        return true;
+                    }
+                }
+            }
+            return false;
+        }
+
         public abstract bool[,] possibleMoves();
     }
 }

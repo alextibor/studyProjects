@@ -6,8 +6,8 @@ namespace CSharpChess.chess
     public class ChessMatch
     {
         public Board bd { get; private set; }
-        private int turn;
-        private Color currentPlayer;
+        public int turn { get; private set; }
+        public Color currentPlayer { get; private set; }
         public bool finished { get; private set; }
 
         public ChessMatch()
@@ -25,6 +25,41 @@ namespace CSharpChess.chess
             p.incrementMoveQtd();
             Piece pieceCaptured = bd.RemovePiece(destiny);
             bd.PutPiece(p, destiny);
+        }
+
+        public void PerformPlay(Position origin, Position destiny)
+        {
+            performMove(origin, destiny);
+            turn++;
+            ChangePlayer();
+        }
+
+        public void ValidateOriginPosition(Position pos)
+        {
+            if(bd.Piece(pos) == null)
+            {
+                throw new BoardException("Theres no piece in chosen origin position!");
+            }
+            if (currentPlayer != bd.Piece(pos).color);
+            {
+                throw new BoardException("The chosen piece is not yours");
+            }
+            if (!bd.Piece(pos).ThereIsPossibleMovement())
+            {
+                throw new BoardException("There is no possible moviments for the chosen origin piece!");
+            }
+        }
+
+        public void ChangePlayer()
+        {
+            if(currentPlayer == Color.White)
+            {
+                currentPlayer = Color.Black;
+            }
+            else
+            {
+                currentPlayer = Color.White;
+            }
         }
 
         private void PutPieces()
