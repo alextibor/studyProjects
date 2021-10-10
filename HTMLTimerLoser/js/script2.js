@@ -1,29 +1,33 @@
-const secondText = document.getElementById('seconds');
-const minuteText = document.getElementById('minutes');
-const hourText = document.getElementById('hours');
-
-let [milliseconds, seconds, minutes, hours] = [0,0,0,0];
+let [hours, minutes, seconds] = [0,0,0];
 let timerRef = document.querySelector('.timerDisplay');
+let intervalID = 0;
 
-let second = 0;
-let minute = 0;
-let hour = 0;
-let int;
 
 document.getElementById('startButton').addEventListener('click', () =>{
-    int = setInterval(displayTimer, 1000);
+    intervalID = setInterval(displayTimer, 1000);
+});
+
+document.getElementById('stopButton').addEventListener('click', ()=>{
+    clearInterval(intervalID);
+    [hours, minutes, seconds] = [0,0,0];
+    timerRef.innerHTML = `00 : 00 : 00`;
 });
 
 function displayTimer(){
-    second ++;
-    secondText.textContent = second;
-    if(second == 60){
-        second = 0;
-        minute ++;
-        minuteText.textContent = minute;
-    } else if (minute == 60) {
-        minute = 0;
-        hour ++;
-        hourText.textContent = hour;
+    seconds ++;
+    if(seconds == 60){
+        seconds = 0;
+        minutes ++;
+    } if (minutes == 60) {
+        minutes = 0;
+        hours ++;
+    } if (hours == 24){
+        hours = 0;
     }
+
+    let h = hours < 10 ? "0" + hours : hours;
+    let m = minutes < 10 ? "0" + minutes : minutes;
+    let s = seconds < 10 ? "0" + seconds : seconds;
+
+    timerRef.innerHTML = `${h} : ${m} : ${s}`;
 }
