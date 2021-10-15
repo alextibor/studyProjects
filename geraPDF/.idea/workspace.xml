@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bce99897-c824-4adf-b3a3-5f046d61f9e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/monkey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geraPDF/GeneratorPDF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geraPDF/SimpleTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/MONKEYBANK.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/DocumentPDFV7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/monkey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geraPDF/SimpleTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geraPDF/SimpleTable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,6 +131,7 @@
       <workItem from="1634308857939" duration="2664000" />
       <workItem from="1634312484416" duration="52000" />
       <workItem from="1634312558472" duration="1811000" />
+      <workItem from="1634315312284" duration="3129000" />
     </task>
     <servers />
   </component>
