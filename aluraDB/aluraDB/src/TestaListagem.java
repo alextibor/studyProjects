@@ -1,17 +1,14 @@
 import java.sql.*;
-import java.util.List;
 
 public class TestaListagem {
 
 public static void main(String[]args) throws SQLException{
-    Connection conn = DriverManager.getConnection(
-            "jdbc:mysql://localhost/loja_virtual?useTimezone=true&serverTimezone=UTC",
-            "t1b0r", "password");
 
-    Statement stm = conn.createStatement();
-    boolean resultado = stm.execute("SELECT ID, NOME, DESCRICAO FROM PRODUTO");
+    ConnectionFactory connectionFactory = new ConnectionFactory();
+    Connection connection = connectionFactory.recuperarConexao();
 
-    System.out.println(resultado);
+    PreparedStatement stm = connection.prepareStatement("SELECT ID, NOME, DESCRICAO FROM PRODUTO");
+    stm.execute();
 
     ResultSet rst = stm.getResultSet();
 
@@ -19,10 +16,10 @@ public static void main(String[]args) throws SQLException{
         Integer id = rst.getInt("ID");
         System.out.print(id + " ");
         String nome = rst.getString("NOME");
-        System.out.print(nome + " ");
+        System.out.print(nome + " | ");
         String descricao = rst.getString("DESCRICAO");
-        System.out.print(descricao);
+        System.out.println(descricao);
     }
-    conn.close();
+    connection.close();
     }
 }
