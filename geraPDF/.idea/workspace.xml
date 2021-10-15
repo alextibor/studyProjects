@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bce99897-c824-4adf-b3a3-5f046d61f9e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/DocumentPDFV7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monkey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geraPDF/GeneratorPDF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geraPDF/SimpleTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/DocumentPDFV7.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,12 +29,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1zWmM2bHC6kbzq4aWz9xyfRJB3j" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -45,13 +49,50 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.SimpleTable">
+    <configuration name="Colspanrowspan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geraPDF.Colspanrowspan" />
+      <module name="geraPDF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geraPDF.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GeneratorPDF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geraPDF.GeneratorPDF" />
+      <module name="geraPDF" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geraPDF.SimpleTable" />
+      <module name="geraPDF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geraPDF.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="geraPDF" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="geraPDF" />
@@ -59,6 +100,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.geraPDF" />
+      <item itemvalue="Application.GeneratorPDF" />
+      <item itemvalue="Application.Colspanrowspan" />
+      <item itemvalue="Application.SimpleTable" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SimpleTable" />
+        <item itemvalue="Application.GeneratorPDF" />
+        <item itemvalue="Application.Colspanrowspan" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -69,11 +123,24 @@
       <option name="presentableId" value="Default" />
       <updated>1634272168850</updated>
       <workItem from="1634272170275" duration="265000" />
-      <workItem from="1634272451841" duration="926000" />
+      <workItem from="1634272451841" duration="2594000" />
+      <workItem from="1634275091850" duration="1119000" />
+      <workItem from="1634276699988" duration="440000" />
+      <workItem from="1634277160784" duration="744000" />
+      <workItem from="1634293806536" duration="1671000" />
+      <workItem from="1634295808387" duration="367000" />
+      <workItem from="1634296211944" duration="97000" />
+      <workItem from="1634296329670" duration="20000" />
+      <workItem from="1634308857939" duration="2664000" />
+      <workItem from="1634312484416" duration="52000" />
+      <workItem from="1634312558472" duration="1811000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
