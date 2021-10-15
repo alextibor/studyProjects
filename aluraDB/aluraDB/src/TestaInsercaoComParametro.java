@@ -3,17 +3,26 @@ import java.sql.*;
 public class TestaInsercaoComParametro {
 
     public static void main(String[] args) throws SQLException {
-        String nome = "Mouse";
-        String descricao = "Mouse Sem fio";
+
         ConnectionFactory factory = new ConnectionFactory();
-        Connection connection = factory.recuperarConexao();
+        try(Connection connection = factory.recuperarConexao()){
+            
+            connection.setAutoCommit(false);
 
-        PreparedStatement stm =
-                connection.prepareStatement("INSERT INTO PRODUTO (nome, descricao) VALUES (?, ?)"
-                        , Statement.RETURN_GENERATED_KEYS);
+            try(PreparedStatement stm =
+                        connection.prepareStatement("INSERT INTO PRODUTO (nome, descricao) VALUES (?, ?)"
+                                , Statement.RETURN_GENERATED_KEYS);)
+            {
+                adicionaVariavel("SmartTV", "45 Polegadas", stm);
+                adicionaVariavel("Radio", "AM/FM", stm);
 
-        adicionaVariavel("SmartTV", "45 Polegadas", stm);
-        adicionaVariavel("Radio", "AM/FM", stm);
+                connection.commit();
+            }catch (Exception e){
+                e.printStackTrace();
+                System.out.println("ROLLBACK EXECUTADO");
+            }
+            connection.rollback();
+        }
     }
 
     private static void adicionaVariavel(String nome, String descricao, PreparedStatement stm) throws SQLException {
@@ -21,12 +30,11 @@ public class TestaInsercaoComParametro {
         stm.setString(2, descricao);
 
         stm.execute();
-
-        ResultSet rst = stm.getGeneratedKeys();
-        while(rst.next()){
-            Integer id = rst.getInt(1);
-            System.out.println("O id criado foi " + id);
+        try(ResultSet rst = stm.getGeneratedKeys();){
+            while(rst.next()){
+                Integer id = rst.getInt(1);
+                System.out.println("O id criado foi " + id);
+            }
         }
-        rst.close();
     }
 }
