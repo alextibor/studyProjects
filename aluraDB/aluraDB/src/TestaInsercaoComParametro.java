@@ -6,7 +6,7 @@ public class TestaInsercaoComParametro {
 
         ConnectionFactory factory = new ConnectionFactory();
         try(Connection connection = factory.recuperarConexao()){
-            
+
             connection.setAutoCommit(false);
 
             try(PreparedStatement stm =
