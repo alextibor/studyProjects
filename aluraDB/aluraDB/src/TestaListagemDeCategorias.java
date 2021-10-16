@@ -14,7 +14,7 @@ public class TestaListagemDeCategorias {
             List<Categoria> listaDeCategorias = categoriaDAO.listar();
             listaDeCategorias.stream().forEach(ct -> {
                 System.out.println(ct.getNome());
-                for (Produto produto : new ProdutoDAO(connection).buscar(ct.)){
+                for (Produto produto : new ProdutoDAO(connection).buscar(ct)){
                     System.out.println(ct.getNome() + " " + produto.getNome());
                 }
             });
