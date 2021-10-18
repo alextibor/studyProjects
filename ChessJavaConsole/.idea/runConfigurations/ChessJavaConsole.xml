@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="ChessJavaConsole" type="Application" factoryName="Application">
-    <option name="MAIN_CLASS_NAME" value="com.console.Main" />
+    <option name="MAIN_CLASS_NAME" value="application.Program" />
     <module name="ChessJavaConsole" />
     <method v="2">
       <option name="Make" enabled="true" />
