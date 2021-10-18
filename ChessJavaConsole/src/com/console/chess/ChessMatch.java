@@ -1,6 +1,8 @@
 package com.console.chess;
 
 import com.console.boardgame.Board;
+import com.console.boardgame.Piece;
+import com.console.boardgame.Position;
 import com.console.chess.pieces.King;
 import com.console.chess.pieces.Rook;
 
@@ -25,6 +27,27 @@ public class ChessMatch{
 
     private void placeNewPiece(char column, int row, ChessPiece piece){
         board.placePiece(piece, new ChessPosition(column,row).toPosition());
+    }
+
+    public ChessPiece performChessMove(ChessPosition sourcePosition, ChessPosition targetPosition) {
+        Position source = sourcePosition.toPosition();
+        Position target = targetPosition.toPosition();
+        validateSourcePosition(source);
+        Piece capturedPiece = makeMove(source, target);
+        return (ChessPiece)capturedPiece;
+    }
+
+    private Piece makeMove(Position source, Position target){
+        Piece p = board.removePiece(source);
+        Piece capturedPiece = board.removePiece(target);
+        board.placePiece(p, target);
+        return (ChessPiece)capturedPiece;
+    }
+
+    private void validateSourcePosition(Position position){
+        if (!board.thereIsAPiece(position)){
+            throw new ChessException("There is no piece on source position");
+        }
     }
 
     private void initialSetup() {

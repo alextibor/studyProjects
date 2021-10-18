@@ -54,7 +54,8 @@ public class Board {
         }
         Piece aux = piece(position);
         aux.position = null;
-        //TODO 158 continuar 158;;
+        pieces[position.getRow()][position.getColumn()] = null;
+        return aux;
     }
 
     private boolean positionExists(int row, int column){
