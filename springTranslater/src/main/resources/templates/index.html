@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form id="form1" action="" method="post">
+    <form id="form1" action="#" th:action="@{/translate}" th:object="${index}" method="post">
         <h1 id="center">Translator</h1>
         <div id="selectDiv">
             <select name="inputOptions">
@@ -32,8 +32,8 @@
             </select>
         </div>
         
-        <textarea name="inputText" placeholder="INPUT" cols="30" rows="5"></textarea>
-        <textarea name="outputText" placeholder="OUTPUT" cols="30" rows="5"></textarea>
+        <textarea name="inputText" placeholder="INPUT" cols="30" rows="5" th:field="*{inputText}"></textarea>
+        <textarea name="outputText" placeholder="OUTPUT" cols="30" rows="5" th:field="*{outputText}></textarea>
     </form>
     <button type="submit" form="form1" value="Submit">Translate</button>
 </body>

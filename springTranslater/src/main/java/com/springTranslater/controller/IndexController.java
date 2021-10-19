@@ -2,17 +2,23 @@ package com.springTranslater.controller;
 
 import com.springTranslater.model.Index;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
 
 @Controller
 public class IndexController {
 
-    @GetMapping("/")
-    public String index(){
-        Index idx = new Index();
+    @GetMapping("/translate")
+    public String index(Model model){
+        model.addAttribute("index", new Index());
+        return "index";
+    }
 
-        idx.setInputText("Input");
-        idx.setOutputText("Answer");
+    @PostMapping("/translate")
+    public String response(@ModelAttribute Index index, Model model){
+        model.addAttribute("outputText", index);
         return "index";
     }
 }
