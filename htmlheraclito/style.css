@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&family=Raleway:wght@200&display=swap');
 
 *{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
+
+
 
 body {
     width: 100vw;
@@ -18,7 +22,7 @@ body {
 button {
     
     font-size: 18px;
-    padding: 20px 223px;
+    padding: 20px 217px;
     border: none;
     appearance: none;
     font-family: 'Raleway', sans-serif;
