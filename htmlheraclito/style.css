@@ -54,3 +54,19 @@ textarea::placeholder{
     transition: color 0.3s ease;
 }
 
+select{
+    font-family: 'Raleway', sans-serif;
+    resize: none;
+    border: none;
+    appearance: none;
+    background: #f2f2f2;
+    padding: 12px;
+    border-radius: 5px;
+    width: 250px;
+    outline: none;
+}
+
+#selectDiv {
+    margin-bottom: 10px;
+}
+
