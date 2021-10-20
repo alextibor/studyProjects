@@ -1,13 +1,13 @@
-package com.springBook;
+package tacos;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BookApplication {
+public class TacoCloudApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BookApplication.class, args);
+		SpringApplication.run(TacoCloudApplication.class, args);
 	}
 
 }
