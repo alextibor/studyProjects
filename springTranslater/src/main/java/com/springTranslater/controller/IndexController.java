@@ -18,7 +18,8 @@ public class IndexController {
 
     @PostMapping("/translate")
     public String response(@ModelAttribute Index index, Model model){
-        model.addAttribute("outputText", index);
+        model.addAttribute("inputText", index);
+        System.out.println(index.getInputText());
         return "index";
     }
 }

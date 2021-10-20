@@ -10,30 +10,8 @@
 <body>
     <form id="form1" action="#" th:action="@{/translate}" th:object="${index}" method="post">
         <h1 id="center">Translator</h1>
-        <div id="selectDiv">
-            <select name="inputOptions">
-                <option selected disabled>Select your language</option>
-                <option value="dog">Dog</option>
-                <option value="cat">Cat</option>
-                <option value="hamster">Hamster</option>
-                <option value="parrot">Parrot</option>
-                <option value="spider">Spider</option>
-                <option value="goldfish">Goldfish</option>
-            </select>
-
-            <select name="outputOptions">
-                <option selected disabled>Translate to</option>
-                <option value="dog">Dog</option>
-                <option value="cat">Cat</option>
-                <option value="hamster">Hamster</option>
-                <option value="parrot">Parrot</option>
-                <option value="spider">Spider</option>
-                <option value="goldfish">Goldfish</option>
-            </select>
-        </div>
-        
         <textarea name="inputText" placeholder="INPUT" cols="30" rows="5" th:field="*{inputText}"></textarea>
-        <textarea name="outputText" placeholder="OUTPUT" cols="30" rows="5" th:field="*{outputText}></textarea>
+        <textarea name="outputText" placeholder="OUTPUT" cols="30" rows="5" th:text="*{outputText}"></textarea>
     </form>
     <button type="submit" form="form1" value="Submit">Translate</button>
 </body>
