@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 
+import java.io.IOException;
+
 @Controller
 public class IndexController {
 
@@ -17,9 +19,12 @@ public class IndexController {
     }
 
     @PostMapping("/translate")
-    public String response(@ModelAttribute Index index, Model model){
+    public String response(@ModelAttribute Index index, Model model) throws IOException {
         model.addAttribute("inputText", index);
         System.out.println(index.getInputText());
+        TranslationController.translateText(index.getInputText());
         return "index";
     }
+
+
 }

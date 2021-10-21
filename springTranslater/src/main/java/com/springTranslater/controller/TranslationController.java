@@ -9,14 +9,12 @@ import java.io.IOException;
 
 public class TranslationController {
 
-
-
-    public static void translateText() throws IOException {
+    public static void translateText(String InputText) throws IOException {
         // TODO(developer): Replace these variables before running the sample.
         String projectId = "springtranslater";
         // Supported Languages: https://cloud.google.com/translate/docs/languages
         String targetLanguage = "en";
-        String text = "your-text";
+        String text = InputText;
         translateText(projectId, targetLanguage, text);
     }
 
