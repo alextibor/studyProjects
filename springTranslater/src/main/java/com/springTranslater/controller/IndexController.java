@@ -1,5 +1,6 @@
 package com.springTranslater.controller;
 
+import com.google.cloud.translate.*;
 import com.springTranslater.model.Index;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -22,9 +23,11 @@ public class IndexController {
     public String response(@ModelAttribute Index index, Model model) throws IOException {
         model.addAttribute("inputText", index);
         System.out.println(index.getInputText());
-        TranslationController.translateText(index.getInputText());
         return "index";
     }
 
+    public void makingRequest(){
+
+    }
 
 }

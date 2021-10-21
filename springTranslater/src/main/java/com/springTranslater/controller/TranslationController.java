@@ -9,17 +9,20 @@ import java.io.IOException;
 
 public class TranslationController {
 
-    public static void translateText(String InputText) throws IOException {
+    public static void translateTextWithModel(String inputText) throws IOException {
         // TODO(developer): Replace these variables before running the sample.
-        String projectId = "springtranslater";
+        String projectId = "YOUR-PROJECT-ID";
         // Supported Languages: https://cloud.google.com/translate/docs/languages
-        String targetLanguage = "en";
-        String text = InputText;
-        translateText(projectId, targetLanguage, text);
+        String sourceLanguage = "your-source-language";
+        String targetLanguage = "your-target-language";
+        String text = "your-text";
+        String modelId = "YOUR-MODEL-ID";
+        translateTextWithModel(projectId, sourceLanguage, targetLanguage, text, modelId);
     }
 
-    // Translating Text
-    public static void translateText(String projectId, String targetLanguage, String text)
+    // Translating Text with Model
+    public static void translateTextWithModel(
+            String projectId, String sourceLanguage, String targetLanguage, String text, String modelId)
             throws IOException {
 
         // Initialize client that will be used to send requests. This client only needs to be created
@@ -29,15 +32,20 @@ public class TranslationController {
             // Supported Locations: `global`, [glossary location], or [model location]
             // Glossaries must be hosted in `us-central1`
             // Custom Models must use the same location as your model. (us-central1)
-            LocationName parent = LocationName.of(projectId, "global");
+            String location = "us-central1";
+            LocationName parent = LocationName.of(projectId, location);
+            String modelPath =
+                    String.format("projects/%s/locations/%s/models/%s", projectId, location, modelId);
 
             // Supported Mime Types: https://cloud.google.com/translate/docs/supported-formats
             TranslateTextRequest request =
                     TranslateTextRequest.newBuilder()
                             .setParent(parent.toString())
                             .setMimeType("text/plain")
+                            .setSourceLanguageCode(sourceLanguage)
                             .setTargetLanguageCode(targetLanguage)
                             .addContents(text)
+                            .setModel(modelPath)
                             .build();
 
             TranslateTextResponse response = client.translateText(request);
