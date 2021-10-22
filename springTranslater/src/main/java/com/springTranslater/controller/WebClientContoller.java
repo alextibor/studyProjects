@@ -21,7 +21,7 @@ import java.util.concurrent.TimeUnit;
 public class WebClientContoller {
 
 
-    public String connection(String inputText){
+    public String connection(String inputText, String accessToken){
 
         JSONObject json = new JSONObject();
         json.put("model", "projects/springtranslater/locations/global/models/general/nmt");
@@ -33,8 +33,8 @@ public class WebClientContoller {
         WebClient client = WebClient.builder()
         .baseUrl("https://translation.googleapis.com/v3/projects/AIzaSyAEnP-n4DT_bF-54q7l_Huz5xksaiYVTN4/locations/global:translateText")
         .defaultHeader(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON_VALUE)
-//      .defaultHeader(HttpHeaders.CONTENT_TYPE, HttpHeaders.AUTHORIZATION + " Bearer " + accessToken)
-//        .defaultUriVariables(Collections.singletonMap("url", "http://localhost:8080"))
+        .defaultHeader(HttpHeaders.CONTENT_TYPE, HttpHeaders.AUTHORIZATION + " Bearer " + accessToken)
+//      .defaultUriVariables(Collections.singletonMap("url", "http://localhost:8080"))
         .build();
 
         //Preparing a Request – Define the Method
@@ -42,14 +42,14 @@ public class WebClientContoller {
         //Preparing a Request – Define the URL
         WebClient.RequestBodySpec bodySpec = uriSpec.uri("/resource");
         //Preparing a Request – Define the Body
-        WebClient.RequestHeadersSpec<?> headersSpec = bodySpec.bodyValue("data");
+        WebClient.RequestHeadersSpec<?> headersSpec = bodySpec.bodyValue(json.toString());
+
 
         //Preparing a Request – Define the Headers
         WebClient.ResponseSpec responseSpec = headersSpec.header(
                 HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON_VALUE)
-                .accept(MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML)
+                .accept(MediaType.APPLICATION_JSON)
                 .acceptCharset(StandardCharsets.UTF_8)
-                .ifNoneMatch("*")
                 .ifModifiedSince(ZonedDateTime.now())
                 .retrieve();
 
