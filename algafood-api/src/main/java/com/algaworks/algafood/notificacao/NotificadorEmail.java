@@ -1,9 +1,11 @@
-package com.javaLangObject.notificacao;
+package com.algaworks.algafood.notificacao;
 
-import com.javaLangObject.modelo.Cliente;
+import com.algaworks.algafood.modelo.Cliente;
+import org.springframework.stereotype.Component;
 
-public class NotificadorEmail implements Notificador{
-    @Override
+@Component
+public class NotificadorEmail {
+
     public void notificar(Cliente cliente, String mensagem){
         System.out.printf("Notificando %s através do e-mail %s: %s\n",
                 cliente.getNome(), cliente.getEmail(), mensagem);

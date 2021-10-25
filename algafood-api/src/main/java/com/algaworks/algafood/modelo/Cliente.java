@@ -1,6 +1,6 @@
-package com.javaLangObject.modelo;
+package com.algaworks.algafood.modelo;
 
-public class Cliente {
+public class  Cliente {
     private String nome;
     private String email;
     private String telefone;
