@@ -1,5 +1,4 @@
-import com.sun.source.tree.TryTree;
-import modelo.Categoria;
+import modelo.Category;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -8,30 +7,30 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CategoriaDAO {
-
+public class CategoryDAO {
+/
     private Connection connection;
 
-    public CategoriaDAO(Connection connection){
+    public CategoryDAO(Connection connection){
         this.connection = connection;
     }
 
-    public List<Categoria> listar() throws SQLException {
-        List<Categoria> categorias = new ArrayList<>();
+    public List<Category> listar() throws SQLException {
+        List<Category> categories = new ArrayList<>();
 
-        String sql = "SELECT ID, NOME FROM CATEGORIA";
+        String sql = "SELECT ID, NOME FROM CATEGORY";
 
         try(PreparedStatement pstm = connection.prepareStatement(sql)){
             pstm.execute();
 
             try(ResultSet rst = pstm.getResultSet()){
                 while(rst.next()){
-                    Categoria categoria = new Categoria(rst.getInt(1), rst.getString(2));
+                    Category category = new Category(rst.getInt(1), rst.getString(2));
 
-                    categorias.add(categoria);
+                    categories.add(category);
                 }
             }
         }
-        return categorias;
+        return categories;
     }
 }
