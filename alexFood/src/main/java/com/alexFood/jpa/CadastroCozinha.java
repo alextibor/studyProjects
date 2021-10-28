@@ -11,18 +11,18 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.alexFood.model.Cozinha;
 
+@Component
 public class CadastroCozinha {
 	
 	@PersistenceContext
 	private EntityManager manager;
-	
+
 	public List<Cozinha> listar(){
-		return manager.createQuery("from cozinha", Cozinha.class).getResultList();
+		return manager.createQuery("from Cozinha", Cozinha.class).getResultList();
 	}
 	
 	@Transactional
 	public Cozinha adicionar(Cozinha cozinha) {
 		return manager.merge(cozinha);
 	}
-
 }
