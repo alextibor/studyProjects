@@ -1,4 +1,0 @@
-Console:
-finish CSharpChess
-create a file explorer in c#
-create a sales regsitry in c#
