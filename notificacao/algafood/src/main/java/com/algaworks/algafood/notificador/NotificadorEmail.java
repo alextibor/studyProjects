@@ -1,16 +1,15 @@
 package com.algaworks.algafood.notificador;
 
 import com.algaworks.algafood.model.Cliente;
-import org.springframework.stereotype.Component;
+import java.lang.String;
 
-import java.util.Locale;
-
-@Component
 public class NotificadorEmail implements Notificador {
 
     private boolean caixaAlta;
+    private String hostServidorSmtp;
 
-    public NotificadorEmail() {
+    public NotificadorEmail(String hostServidorSmtp) {
+        this.hostServidorSmtp = hostServidorSmtp;
         System.out.println("NotificadorEmail");
     }
 
@@ -20,7 +19,11 @@ public class NotificadorEmail implements Notificador {
             mensagem = mensagem.toUpperCase();
         }
 
-        System.out.printf("Notificando %s atraves do email %s: %s\n",
-                cliente.getNome(), cliente.getEmail(), mensagem);
+        System.out.printf("Notificando %s atraves do email %s usando SMTP %s: %s\n",
+                cliente.getNome(), cliente.getEmail(), this.hostServidorSmtp, mensagem);
+    }
+
+    public void setCaixaAlta(boolean caixaAlta) {
+        this.caixaAlta = caixaAlta;
     }
 }
