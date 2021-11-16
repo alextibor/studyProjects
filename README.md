@@ -1,8 +1,14 @@
-<h1 align="center">Welcome</h1>
-<h1 align="center">¯\_( ͠ᵔ ͜ʖ ͡ᵔ)_/¯</h1>
+<div align="center">
+  <a href="https://github.com/alextibor/studyProjects">
+    <img src="https://raw.githubusercontent.com/alextibor/alextibor/main/repofiles/png/computer-science.png" alt="Logo" width="250" height="250">
+    <h1>Study Projects</h1>
+  </a>
 
-![studyRepo](https://raw.githubusercontent.com/alextibor/alextibor/main/repofiles/finals/gitbannerFinal.png "You can do it!")
+  <p align="center">
+    I keep all my early drafts and ideas here until they evolve into a more solid form.
+  </p>
+  
+  ![GitHub repo size](https://img.shields.io/github/repo-size/alextibor/studyProjects) ![GitHub last commit](https://img.shields.io/github/last-commit/alextibor/studyProjects) ![GitHub language count](https://img.shields.io/github/languages/count/alextibor/studyProjects)
+</div>
 
-![GitHub repo size](https://img.shields.io/github/repo-size/alextibor/studyProjects) ![GitHub last commit](https://img.shields.io/github/last-commit/alextibor/studyProjects) ![GitHub language count](https://img.shields.io/github/languages/count/alextibor/studyProjects)
 
-My repository to store my draft's
