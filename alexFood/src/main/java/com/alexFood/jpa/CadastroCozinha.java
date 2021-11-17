@@ -25,4 +25,5 @@ public class CadastroCozinha {
 	public Cozinha adicionar(Cozinha cozinha) {
 		return manager.merge(cozinha);
 	}
+
 }
