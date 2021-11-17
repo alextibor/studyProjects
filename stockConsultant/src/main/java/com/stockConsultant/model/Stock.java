@@ -1,26 +1,34 @@
 package com.stockConsultant.model;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.util.Objects;
 
 @Entity
-@Table(name="tab_stock")
+@Table(name = "tabStock")
 public class Stock {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    @Column(name="valueSymbol")
     private String symbol;
+    @Column(name="valueOpen")
     private String open;
+    @Column(name="valueHigh")
     private String high;
+    @Column(name="valueLow")
     private String low;
+    @Column(name="valuePrice")
     private String price;
+    @Column(name="valueVolume")
     private String volume;
+    @Column(name="valueLatestTradingDay")
     private String latestTradingDay;
+    @Column(name="valuePreviousClose")
     private String previousClose;
+    @Column(name="valueChange")
     private String change;
+    @Column(name="valueChangePercent")
     private String changePercent;
 
     public Long getId() {
