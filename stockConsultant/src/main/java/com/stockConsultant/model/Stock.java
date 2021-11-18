@@ -131,4 +131,21 @@ public class Stock {
     public int hashCode() {
         return Objects.hash(getId());
     }
+
+    @Override
+    public String toString() {
+        return "Stock{" +
+                "id=" + id +
+                ", symbol='" + symbol + '\'' +
+                ", open='" + open + '\'' +
+                ", high='" + high + '\'' +
+                ", low='" + low + '\'' +
+                ", price='" + price + '\'' +
+                ", volume='" + volume + '\'' +
+                ", latestTradingDay='" + latestTradingDay + '\'' +
+                ", previousClose='" + previousClose + '\'' +
+                ", change='" + change + '\'' +
+                ", changePercent='" + changePercent + '\'' +
+                '}';
+    }
 }
