@@ -1,3 +1,6 @@
+TALVEZ NAO PRECISA DAS DUAS ASPAS NOS VALORES INSERIDOS
+
+
 INSERT INTO
         tab_stock (value_symbol,
                        value_open,

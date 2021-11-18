@@ -3,12 +3,14 @@ package com.alexFood.infrastucture.repository;
 import com.alexFood.model.Cozinha;
 import com.alexFood.model.Restaurante;
 import com.alexFood.repository.RestauranteRepository;
+import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import java.util.List;
 
+@Component
 public class RestauranteRepositoryImpl implements RestauranteRepository {
 
     @PersistenceContext

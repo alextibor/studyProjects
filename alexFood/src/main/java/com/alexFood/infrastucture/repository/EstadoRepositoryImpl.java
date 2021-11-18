@@ -1,7 +1,8 @@
 package com.alexFood.infrastucture.repository;
 
 import com.alexFood.model.Cozinha;
-import com.alexFood.repository.CozinhaRepository;
+import com.alexFood.model.Estado;
+import com.alexFood.repository.EstadoRepository;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -10,31 +11,31 @@ import javax.persistence.PersistenceContext;
 import java.util.List;
 
 @Component
-public class CozinhaRepositoryImpl implements CozinhaRepository {
+public class EstadoRepositoryImpl implements EstadoRepository {
 
     @PersistenceContext
     private EntityManager manager;
 
     @Override
-    public List<Cozinha> listar(){
-        return manager.createQuery("from Cozinha", Cozinha.class)
+    public List<Estado> listar(){
+        return manager.createQuery("from Estado", Estado.class)
                 .getResultList();
     }
     @Override
-    public Cozinha buscar(Long id){
-        return manager.find(Cozinha.class, id);
+    public Estado buscar(Long id){
+        return manager.find(Estado.class, id);
     }
 
     @Transactional
     @Override
-    public Cozinha salvar(Cozinha cozinha) {
-        return manager.merge(cozinha);
+    public Estado salvar(Estado estado) {
+        return manager.merge(estado);
     }
 
     @Transactional
     @Override
-    public void remover(Cozinha cozinha){
-        cozinha = buscar(cozinha.getId());
-        manager.remove(cozinha);
+    public void remover(Estado estado){
+        estado = buscar(estado.getId());
+        manager.remove(estado);
     }
 }
