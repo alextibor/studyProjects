@@ -4,7 +4,7 @@ import javax.persistence.*;
 import java.util.Objects;
 
 @Entity
-@Table(name = "tabStock")
+@Table(name = "tab_stock")
 public class Stock {
 
     @Id
