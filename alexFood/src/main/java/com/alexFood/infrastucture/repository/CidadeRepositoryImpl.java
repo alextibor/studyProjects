@@ -1,8 +1,7 @@
 package com.alexFood.infrastucture.repository;
 
-import com.alexFood.model.Cidade;
-import com.alexFood.model.Cozinha;
-import com.alexFood.repository.CidadeRepository;
+import com.alexFood.domain.model.Cidade;
+import com.alexFood.domain.repository.CidadeRepository;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 

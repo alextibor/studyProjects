@@ -1,7 +1,6 @@
-package com.alexFood.repository;
+package com.alexFood.domain.repository;
 
-import com.alexFood.model.Cozinha;
-import com.alexFood.model.Restaurante;
+import com.alexFood.domain.model.Restaurante;
 
 import java.util.List;
 

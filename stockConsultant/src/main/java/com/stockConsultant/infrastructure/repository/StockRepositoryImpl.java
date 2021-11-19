@@ -1,7 +1,7 @@
-package com.stockConsultant.ifrastructure.repository;
+package com.stockConsultant.infrastructure.repository;
 
-import com.stockConsultant.model.Stock;
-import com.stockConsultant.repository.StockRepository;
+import com.stockConsultant.domain.model.Stock;
+import com.stockConsultant.domain.repository.StockRepository;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 

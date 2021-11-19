@@ -1,4 +1,4 @@
-package com.alexFood.model;
+package com.alexFood.domain.model;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -11,7 +11,7 @@ import javax.persistence.Id;
 @Data
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 @Entity
-public class Cidade {
+public class Estado {
 
     @EqualsAndHashCode.Include
     @Id

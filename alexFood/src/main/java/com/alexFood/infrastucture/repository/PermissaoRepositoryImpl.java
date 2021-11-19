@@ -1,8 +1,7 @@
 package com.alexFood.infrastucture.repository;
 
-import com.alexFood.model.Cozinha;
-import com.alexFood.model.Permissao;
-import com.alexFood.repository.PermissaoRepository;
+import com.alexFood.domain.model.Permissao;
+import com.alexFood.domain.repository.PermissaoRepository;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 

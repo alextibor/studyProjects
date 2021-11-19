@@ -1,12 +1,12 @@
 package com.alexFood.jpa;
 
 import com.alexFood.AlexFoodApplication;
-import com.alexFood.repository.CozinhaRepository;
+import com.alexFood.domain.repository.CozinhaRepository;
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.ApplicationContext;
 
-import com.alexFood.model.Cozinha;
+import com.alexFood.domain.model.Cozinha;
 
 public class InclusaoCozinhaMain {
 	

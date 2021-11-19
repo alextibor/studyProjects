@@ -1,4 +1,4 @@
-package com.stockConsultant.model;
+package com.stockConsultant.domain.model;
 
 import javax.persistence.*;
 import java.util.Objects;
@@ -146,6 +146,10 @@ public class Stock {
                 ", previousClose='" + previousClose + '\'' +
                 ", change='" + change + '\'' +
                 ", changePercent='" + changePercent + '\'' +
-                '}';
+        '}';
     }
 }
+
+/** You can use the anotation @JsonIgnore on top of the attribute
+ * that you want to be ignored on json response. Awesome
+ */

@@ -1,23 +1,26 @@
-package com.alexFood.model;
+package com.alexFood.domain.model;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.Setter;
 
 import javax.persistence.*;
-import java.util.Objects;
+import java.math.BigDecimal;
 
 @Data
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 @Entity
-public class Cozinha {
+public class Restaurante {
 
     @EqualsAndHashCode.Include
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    public Long id;
 
     private String nome;
 
+    @Column(name = "taxa_frete")
+    private BigDecimal taxaFrete;
+
+    @ManyToOne
+    private Cozinha cozinha;
 }

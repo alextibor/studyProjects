@@ -1,10 +1,8 @@
 package com.alexFood.jpa;
 
 import com.alexFood.AlexFoodApplication;
-import com.alexFood.model.Cozinha;
-import com.alexFood.model.Restaurante;
-import com.alexFood.repository.CozinhaRepository;
-import com.alexFood.repository.RestauranteRepository;
+import com.alexFood.domain.model.Restaurante;
+import com.alexFood.domain.repository.RestauranteRepository;
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.ApplicationContext;

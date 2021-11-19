@@ -1,6 +1,6 @@
-package com.stockConsultant.repository;
+package com.stockConsultant.domain.repository;
 
-import com.stockConsultant.model.Stock;
+import com.stockConsultant.domain.model.Stock;
 
 import java.util.List;
 

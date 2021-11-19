@@ -1,8 +1,7 @@
 package com.alexFood.infrastucture.repository;
 
-import com.alexFood.model.Cozinha;
-import com.alexFood.model.Estado;
-import com.alexFood.repository.EstadoRepository;
+import com.alexFood.domain.model.Estado;
+import com.alexFood.domain.repository.EstadoRepository;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
