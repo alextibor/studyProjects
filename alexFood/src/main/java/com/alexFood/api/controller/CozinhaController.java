@@ -1,6 +1,5 @@
 package com.alexFood.api.controller;
 
-import com.alexFood.api.model.CozinhasXmlWrapper;
 import com.alexFood.domain.exception.EntidadeEmUsoException;
 import com.alexFood.domain.exception.EntidadeNaoEncontradaException;
 import com.alexFood.domain.model.Cozinha;
@@ -8,9 +7,7 @@ import com.alexFood.domain.repository.CozinhaRepository;
 import com.alexFood.domain.service.CadastroCozinhaService;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -29,11 +26,6 @@ public class CozinhaController {
     @GetMapping
     public List<Cozinha> listar(){
         return cozinhaRepository.listar();
-    }
-
-    @GetMapping(produces = MediaType.APPLICATION_XML_VALUE)
-    public CozinhasXmlWrapper listarXml(){
-        return new CozinhasXmlWrapper(cozinhaRepository.listar());
     }
 
     @GetMapping("/{cozinhaId}")
@@ -58,7 +50,7 @@ public class CozinhaController {
         Cozinha cozinhaAtual = cozinhaRepository.buscar(cozinhaId);
         if (cozinhaAtual != null){
             BeanUtils.copyProperties(cozinha, cozinhaAtual, "id");
-            cozinhaRepository.salvar(cozinhaAtual);
+            cozinhaAtual = cadastroCozinha.salvar(cozinhaAtual);
             return ResponseEntity.ok(cozinhaAtual);
         } else {
             return ResponseEntity.notFound().build();
