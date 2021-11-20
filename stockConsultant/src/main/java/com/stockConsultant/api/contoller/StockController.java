@@ -1,7 +1,10 @@
 package com.stockConsultant.api.contoller;
 
+import com.stockConsultant.domain.exception.EntityInUseException;
+import com.stockConsultant.domain.exception.EntityNotFoundException;
 import com.stockConsultant.domain.model.Stock;
 import com.stockConsultant.domain.repository.StockRepository;
+import com.stockConsultant.domain.service.StockRegistryService;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;
@@ -17,6 +20,9 @@ public class StockController {
 
     @Autowired
     private StockRepository stockRepository;
+
+    @Autowired
+    private StockRegistryService stockRegistryService;
 
     @GetMapping
     public List<Stock> listing(){
@@ -55,15 +61,12 @@ public class StockController {
     @DeleteMapping("/{stockId}")
     public ResponseEntity<Stock> remove(@PathVariable Long stockId){
         try {
-            Stock stock = stockRepository.search(stockId);
+            stockRegistryService.exclude(stockId);
+            return ResponseEntity.noContent().build();
 
-            if (stock != null){
-                stockRepository.remove(stock);
-                return ResponseEntity.noContent().build();
-            } else {
-                return ResponseEntity.notFound().build();
-            }
-        } catch (DataIntegrityViolationException e){
+        } catch (EntityNotFoundException e) {
+            return ResponseEntity.notFound().build();
+        } catch (EntityInUseException e){
             return ResponseEntity.status(HttpStatus.CONFLICT).build();
         }
     }

@@ -2,6 +2,7 @@ package com.stockConsultant.infrastructure.repository;
 
 import com.stockConsultant.domain.model.Stock;
 import com.stockConsultant.domain.repository.StockRepository;
+import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -33,8 +34,12 @@ public class StockRepositoryImpl implements StockRepository {
 
     @Transactional
     @Override
-    public void remove(Stock stock){
-        stock = search(stock.getId());
+    public void remove(Long id){
+        Stock stock = search(id);
+
+        if(stock == null){
+            throw new EmptyResultDataAccessException(1);
+        }
         manager.remove(stock);
     }
 }

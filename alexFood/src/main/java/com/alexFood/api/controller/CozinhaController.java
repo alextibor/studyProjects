@@ -1,6 +1,8 @@
 package com.alexFood.api.controller;
 
 import com.alexFood.api.model.CozinhasXmlWrapper;
+import com.alexFood.domain.exception.EntidadeEmUsoException;
+import com.alexFood.domain.exception.EntidadeNaoEncontradaException;
 import com.alexFood.domain.model.Cozinha;
 import com.alexFood.domain.repository.CozinhaRepository;
 import com.alexFood.domain.service.CadastroCozinhaService;
@@ -66,15 +68,12 @@ public class CozinhaController {
     @DeleteMapping("/{cozinhaId}")
     public ResponseEntity<Cozinha> remover(@PathVariable Long cozinhaId){
         try {
-            Cozinha cozinha = cozinhaRepository.buscar(cozinhaId);
+            cadastroCozinha.excluir(cozinhaId);
+            return ResponseEntity.noContent().build();
 
-            if (cozinha != null){
-                cozinhaRepository.remover(cozinha);
-                return ResponseEntity.noContent().build();
-            } else {
-                return ResponseEntity.notFound().build();
-            }
-        } catch (DataIntegrityViolationException e) {
+        } catch (EntidadeNaoEncontradaException e) {
+            return ResponseEntity.notFound().build();
+        } catch (EntidadeEmUsoException e){
             return ResponseEntity.status(HttpStatus.CONFLICT).build();
         }
     }
