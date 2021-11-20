@@ -1,11 +1,11 @@
-package com.stockConsultant.telegramBot;
+package com.niceStockBot;
 
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 
-public class MyAmazingBot extends TelegramLongPollingBot {
+public class MyAwesomeBot extends TelegramLongPollingBot{
 
     @Override
     public String getBotUsername(){
@@ -37,6 +37,4 @@ public class MyAmazingBot extends TelegramLongPollingBot {
             }
         }
     }
-
-
 }
