@@ -7,9 +7,7 @@ import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.ApplicationContext;
 
-import java.util.List;
-
-public class InclusaoCozinhaMain {
+public class ExclusaoCozinhaMain {
     public static void main(String[] args) {
         ApplicationContext applicationContext = new SpringApplicationBuilder(AlgafoodApiApplication.class)
                 .web(WebApplicationType.NONE)
@@ -17,13 +15,9 @@ public class InclusaoCozinhaMain {
 
         CozinhaRepository cozinhaRepository = applicationContext.getBean(CozinhaRepository.class);
 
-        Cozinha cozinha1 = new Cozinha();
-        cozinha1.setNome("Brasileira");
+        Cozinha cozinha = new Cozinha();
+        cozinha.setId(1L);
 
-        Cozinha cozinha2 = new Cozinha();
-        cozinha2.setNome("Espanhola");
-
-        cozinhaRepository.salvar(cozinha1);
-        cozinhaRepository.salvar(cozinha2);
+        cozinhaRepository.remover(cozinha);
     }
 }
