@@ -1,9 +1,11 @@
 package com.algaworks.algafoodApi.infrastucture.repository;
 
 import com.algaworks.algafoodApi.domain.model.Cozinha;
+import com.algaworks.algafoodApi.domain.model.Estado;
 import com.algaworks.algafoodApi.domain.model.Restaurante;
 import com.algaworks.algafoodApi.domain.repository.CozinhaRepository;
 import com.algaworks.algafoodApi.domain.repository.RestauranteRepository;
+import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -35,7 +37,13 @@ public class RestauranteRepositoryImpl implements RestauranteRepository {
 
     @Transactional
     @Override
-    public void remover(Restaurante restaurante) {
-        manager.remove(restaurante);
+    public void remover(Long id) {
+        Restaurante restaurante = buscar(id);
+
+        if (restaurante == null){
+            throw new EmptyResultDataAccessException(1);
+        } else {
+            manager.remove(restaurante);
+        }
     }
 }
