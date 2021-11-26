@@ -2,19 +2,19 @@ package com.algaworks.algafoodApi.domain.model;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-
 import javax.persistence.*;
+import javax.persistence.GenerationType;
 import java.util.Objects;
 
 @Data
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 @Entity
-public class Cozinha {
+public class Cidade {
 
     @EqualsAndHashCode.Include
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Long Id;
 
     @Column(nullable = false)
     private String nome;
@@ -22,9 +22,9 @@ public class Cozinha {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof Cozinha)) return false;
-        Cozinha cozinha = (Cozinha) o;
-        return Objects.equals(getId(), cozinha.getId()) && Objects.equals(getNome(), cozinha.getNome());
+        if (!(o instanceof Cidade)) return false;
+        Cidade estado = (Cidade) o;
+        return Objects.equals(getId(), estado.getId()) && Objects.equals(getNome(), estado.getNome());
     }
 
     @Override

@@ -9,12 +9,12 @@ import java.util.Objects;
 @Data
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 @Entity
-public class Cozinha {
+public class Estado {
 
     @EqualsAndHashCode.Include
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Long Id;
 
     @Column(nullable = false)
     private String nome;
@@ -22,9 +22,9 @@ public class Cozinha {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof Cozinha)) return false;
-        Cozinha cozinha = (Cozinha) o;
-        return Objects.equals(getId(), cozinha.getId()) && Objects.equals(getNome(), cozinha.getNome());
+        if (!(o instanceof Estado)) return false;
+        Estado estado = (Estado) o;
+        return Objects.equals(getId(), estado.getId()) && Objects.equals(getNome(), estado.getNome());
     }
 
     @Override

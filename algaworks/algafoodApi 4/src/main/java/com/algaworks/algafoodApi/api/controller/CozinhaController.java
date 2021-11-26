@@ -3,6 +3,7 @@ package com.algaworks.algafoodApi.api.controller;
 import com.algaworks.algafoodApi.domain.model.Cozinha;
 import com.algaworks.algafoodApi.domain.repository.CozinhaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
@@ -20,8 +21,8 @@ public class CozinhaController {
         return cozinhaRepository.listar();
     }
 
-    @GetMapping("{/cozinhaId}")
-    public Cozinha listar(@PathVariable("cozinhaId") Long id) {
-        return cozinhaRepository.buscar(id);
+    @GetMapping("/{cozinhaId}")
+    public Cozinha buscar(@PathVariable Long cozinhaId){
+        return cozinhaRepository.buscar(cozinhaId);
     }
 }
