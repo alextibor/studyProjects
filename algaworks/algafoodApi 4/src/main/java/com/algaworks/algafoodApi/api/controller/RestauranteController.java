@@ -68,4 +68,9 @@ public class RestauranteController {
             return ResponseEntity.status(HttpStatus.CONFLICT).build();
         }
     }
+
+    @PatchMapping("/{restauranteId}")
+    public ResponseEntity<?> atualizarParcial(@PathVariable Long restauranteId, @RequestBody Restaurante restaurante) {
+        return ResponseEntity.ok().build();
+    }
 }
