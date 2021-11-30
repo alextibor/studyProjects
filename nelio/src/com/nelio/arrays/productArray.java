@@ -1,11 +1,11 @@
-package com.nelio;
+package com.nelio.arrays;
 
 import com.nelio.model.Product;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-public class averagePrice {
+public class productArray {
 
     public static void main(String[] args) {
 
@@ -19,7 +19,9 @@ public class averagePrice {
             sc.nextLine();
             String name = sc.nextLine();
             double price = sc.nextDouble();
+            int room = sc.nextInt();
             vect[i] = new Product(name, price);
+
         }
 
         double sum = 0.0;

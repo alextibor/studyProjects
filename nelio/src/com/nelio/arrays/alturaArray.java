@@ -1,4 +1,4 @@
-package com.nelio;
+package com.nelio.arrays;
 
 import java.util.Locale;
 import java.util.Scanner;
