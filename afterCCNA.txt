@@ -1,0 +1,5 @@
+SYCP
+Python for pentest
+Hacking: The Art of Exploitation
+C
+
