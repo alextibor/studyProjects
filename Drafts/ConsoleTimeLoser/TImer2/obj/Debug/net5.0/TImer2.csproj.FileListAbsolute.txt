@@ -1,0 +1,16 @@
+/home/t1b0r/Documents/tiborProjects/studyProjects/ConsoleTimeLoser/TImer2/bin/Debug/net5.0/TImer2
+/home/t1b0r/Documents/tiborProjects/studyProjects/ConsoleTimeLoser/TImer2/bin/Debug/net5.0/TImer2.deps.json
+/home/t1b0r/Documents/tiborProjects/studyProjects/ConsoleTimeLoser/TImer2/bin/Debug/net5.0/TImer2.runtimeconfig.json
+/home/t1b0r/Documents/tiborProjects/studyProjects/ConsoleTimeLoser/TImer2/bin/Debug/net5.0/TImer2.runtimeconfig.dev.json
+/home/t1b0r/Documents/tiborProjects/studyProjects/ConsoleTimeLoser/TImer2/bin/Debug/net5.0/TImer2.dll
+/home/t1b0r/Documents/tiborProjects/studyProjects/ConsoleTimeLoser/TImer2/bin/Debug/net5.0/ref/TImer2.dll
+/home/t1b0r/Documents/tiborProjects/studyProjects/ConsoleTimeLoser/TImer2/bin/Debug/net5.0/TImer2.pdb
+/home/t1b0r/Documents/tiborProjects/studyProjects/ConsoleTimeLoser/TImer2/obj/Debug/net5.0/TImer2.csproj.AssemblyReference.cache
+/home/t1b0r/Documents/tiborProjects/studyProjects/ConsoleTimeLoser/TImer2/obj/Debug/net5.0/TImer2.GeneratedMSBuildEditorConfig.editorconfig
+/home/t1b0r/Documents/tiborProjects/studyProjects/ConsoleTimeLoser/TImer2/obj/Debug/net5.0/TImer2.AssemblyInfoInputs.cache
+/home/t1b0r/Documents/tiborProjects/studyProjects/ConsoleTimeLoser/TImer2/obj/Debug/net5.0/TImer2.AssemblyInfo.cs
+/home/t1b0r/Documents/tiborProjects/studyProjects/ConsoleTimeLoser/TImer2/obj/Debug/net5.0/TImer2.csproj.CoreCompileInputs.cache
+/home/t1b0r/Documents/tiborProjects/studyProjects/ConsoleTimeLoser/TImer2/obj/Debug/net5.0/TImer2.dll
+/home/t1b0r/Documents/tiborProjects/studyProjects/ConsoleTimeLoser/TImer2/obj/Debug/net5.0/ref/TImer2.dll
+/home/t1b0r/Documents/tiborProjects/studyProjects/ConsoleTimeLoser/TImer2/obj/Debug/net5.0/TImer2.pdb
+/home/t1b0r/Documents/tiborProjects/studyProjects/ConsoleTimeLoser/TImer2/obj/Debug/net5.0/TImer2.genruntimeconfig.cache

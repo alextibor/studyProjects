@@ -1,0 +1,51 @@
+body {
+    background-color: grey;
+}
+
+#banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.itens {
+    font-style: italic;
+}
+
+.titulo-centralizado {
+    text-align: center;
+}
+
+.titulo-principal {
+    padding-left: 20px;
+}
+
+p {
+    text-align: center;
+}
+
+#cacilds {
+    font-style: italic;
+}
+
+.intro {
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+.samuel {
+    background-color: aqua;
+    padding: 20px;
+}
+
+.jpgsamuel {
+    width: 50%;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}

@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.container {
+    display: flex;
+    
+}
+
+.sidebar {
+    flex: 1;
+    height: 600px;
+    background-color: grey;
+}
+
+.main-content{
+    display: flex;
+    flex: 3;
+    height: 600px;
+    background-color: cyan;
+    overflow: auto;
+}
+
+
+.time-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

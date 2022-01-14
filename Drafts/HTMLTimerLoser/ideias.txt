@@ -1,0 +1,34 @@
+Caracteristica:
+
+Campo de inserir o nome da task
+Escolher o projeto
+Contador de tempo
+Parar contador de tempo
+Deletar contagem do tempo
+
+
+
+
+
+Tasks:
+
+ - Combinar duas fontes.
+	Sans Serif
+	Modern
+
+Icons:
+https://thenounproject.com/icons/
+What is negative space?
+
+https://digitalsynopsis.com/design/font-psychology-emotions/
+https://blog.envisionitsolutions.com/8-design-tips-for-creating-a-clean-minimalist-website
+https://woolthemes.com/10-tips-to-create-a-perfect-minimalist-website/
+
+
+
+criar personagem 
+exemplo: https://deno.land/
+
+
+
+play stop button javascript inverter 
