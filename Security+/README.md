@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://raw.githubusercontent.com/alextibor/alextibor/main/repofiles/png/hacking/document1.png" alt="Logo" width="250" height="250">
+    <img src="https://raw.githubusercontent.com/alextibor/alextibor/main/repofiles/png/hacking/certification6.png" alt="Logo" width="250" height="250">
   </a>
 
   <h3 align="center">CompTia Security+ SY0-601</h3>
