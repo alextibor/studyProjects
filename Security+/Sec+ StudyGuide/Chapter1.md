@@ -8,11 +8,11 @@ protecting sensitive information from unauthorized disclosure is certainly one e
 
 ![picture 1](../images/0f7224d41249ec0747db1b2d87ab03d6c35ff557a5268df8e2847360044d6d62.png)  
 
-Confidentiality ensures that unauthorized individuals are not able to gain access to sensitive information done by security controls, including firewalls, access control lists, and encryption, to prevent unauthorized access to information.
+**Confidentiality** ensures that unauthorized individuals are not able to gain access to sensitive information done by security controls, including firewalls, access control lists, and encryption, to prevent unauthorized access to information.
 
-Integrity ensures that there are no unauthorized modifications to information or systems, either intentionally or unintentionally.
+**Integrity** ensures that there are no unauthorized modifications to information or systems, either intentionally or unintentionally.
 
-Availability ensures that information and systems are ready to meet the needs of legitimate users at the time those users request them.
+**Availability** ensures that information and systems are ready to meet the needs of legitimate users at the time those users request them.
 
 Cybersecurity analysts often refer to these three goals, known as the CIA Triad, when performing their work.
 
@@ -36,11 +36,13 @@ The CIA and DAD triads are very useful tools for cybersecurity planning and risk
 
 The CIA and DAD triads are very useful tools for cybersecurity planning and risk analysis. Whenever you find yourself tasked with a broad goal of assessing the security controls used to protect an asset or the threats to an organization, you can turn to the CIA and DAD triads for guidance. For example, if you're asked to assess the threats to your organization's website, you may apply the DAD triad in your analysis:
 
-Does the website contain sensitive information that would damage the organization if disclosed to unauthorized individuals?
+1. Does the website contain sensitive information that would damage the organization if disclosed to unauthorized individuals?
 
-If an attacker were able to modify information contained on the website, would this unauthorized alteration cause financial, reputational, or operational damage to the organization?
+2. If an attacker were able to modify information contained on the website, would this unauthorized alteration cause financial, reputational, or operational damage to the organization?
 
-Does the website perform mission-critical activities that could damage the business significantly if an attacker were able to disrupt the site?
+3. Does the website perform mission-critical activities that could damage the business significantly if an attacker were able to disrupt the site?
+
+You can use the CIA and DAD models in almost any situation to serve as a helpful starting point for a more detailed risk analysis.
 
 ## Breach Impact
 
@@ -48,9 +50,9 @@ The impacts of a security incident may be wide-ranging, depending upon the natur
 
 ## Financial Risk
 
-**Financial risk** is, as the name implies, the risk of monetary damage to the organization as the result of a data breach Financial risk may also be indirect and come as a second-order consequence of the breach. For example, if an employee loses a laptop containing plans for a new product, the organization suffers direct financial damage.
+**Financial risk** is, as the name implies, the risk of monetary damage to the organization as the result of a data breach. Financial risk may also be indirect and come as a second-order consequence of the breach. For example, if an employee loses a laptop containing plans for a new product, the organization suffers direct financial damage.
 
-**Reputational Risk**
+## Reputational Risk
 
 Reputational risk occurs when the negative publicity surrounding a security breach causes the loss of goodwill among customers, employees, suppliers, and other stakeholders.
 
@@ -94,6 +96,8 @@ Security controls are categorized based on their mechanism of action: the way th
 administrative controls include periodic risk assessments, security planning exercises, and the incorporation of security into the organization's change management, service acquisition, and project management practices.
 
 Organizations should select a set of security controls that meets their control objectives based on the criteria and parameters that they either select for their environment or have imposed on them by outside regulators.
+
+Many control objectives require a combination of technical, operational, and management controls. For example, an organization might have the control objective of preventing unauthorized access to a datacenter. They might achieve this goal by implementing biometric access control (technical control), performing regular reviews of authorized access (operational control), and conducting routine risk assessments (managerial control).
 
 ## Security Control Types
 
@@ -187,3 +191,4 @@ Although it isn't possible to retrieve the original value directly from the hash
 **Data loss prevention systems block data exfiltration attempts.** DLP technology enforces information handling policies to prevent data loss and theft. DLP systems may function at the host level, using software agents to search systems for the presence of sensitive information. They may also work at the network level, watching for transmissions of unencrypted sensitive information. DLP systems detect sensitive information using pattern-matching technology and/or digital watermarking.
 
 **Data minimization reduces risk by reducing the amount of sensitive information that we maintain.** In cases where we cannot simply discard unnecessary information, we can protect information through de-identification and data obfuscation. The tools used to achieve these goals include hashing, tokenization, and masking of sensitive fields.
+
