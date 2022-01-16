@@ -71,3 +71,57 @@ In their 2019 Internet Organized Crime Threat Assessment (IOCTA), the European U
 Organized crime tends to have attackers who range from moderately skilled to highly skilled. **It is rare for script kiddies to be involved in these crimes, and if they are, they tend to be caught rather quickly.** The other defining factor is that organized crime groups tend to have more resources, both in terms of time and money, than do hacktivists or script kiddies. They often embrace the idea that “it takes money to make money” and are willing to invest in their criminal enterprises in the hopes of yielding a significant return on their investments.
 
 ## Advanced Persistent Threats (APTs)
+
+They are state actors hacking into either foreign governments or corporations. The security company Mandiant created the term advanced persistent threats (APTs) to describe a series of attacks that they first traced to sources connected to the Chinese military. In subsequent years, the security community discovered similar organizations linked to the government of virtually every technologically advanced country.
+
+The term APT tells you a great deal about the attacks themselves. First, they used advanced techniques, not simply tools downloaded from the Internet. Second, the attacks are persistent, occurring over a significant period of time. In some cases, the attacks continued for years as attackers patiently stalked their targets, awaiting the right opportunity to strike.
+
+The APT attacks that Mandiant reported are emblematic of nation-state attacks. They tend to be characterized by highly skilled attackers with significant resources. A nation has the labor force, time, and money to finance ongoing, sophisticated attacks. The motive can be political or economic.
+
+    Zero-Day Attacks
+
+    APT attackers often conduct their own security vulnerability research in an attempt to discover vulnerabilities that are not known to other attackers or cybersecurity teams. After they uncover a vulnerability, they do not disclose it but rather store it in a vulnerability repository for later use. Attacks that exploit these vulnerabilities are known as zero-day attacks. Zero-day attacks are particularly dangerous because they are unknown to product vendors, and therefore, no patches are available to correct them. APT actors who exploit zero-day vulnerabilities are often able to easily compromise their targets. Stuxnet is one of the most well-known examples of an APT attack.
+
+## Insiders
+
+Insider attacks occur when an employee, contractor, vendor, or other individual with authorized access to information and systems uses that access to wage an attack against the organization. Some are motivated by certain activist goals, whereas others are motivated by financial gain. Still others may simply be upset that they were passed over for a promotion or slighted in some other manner. An insider will usually be working alone and have limited financial resources and time. Behavioral assessments are a powerful tool in identifying insider attacks. Cybersecurity teams should work with human resources partners to identify insiders exhibiting unusual behavior and intervene before the situation escalates.
+
+    The Threat of Shadow IT
+
+    Dedicated employees often seek to achieve their goals and objectives through whatever means allows them to do so. Sometimes, this involves using technology services that aren't approved by the organization. They did not do this with any malicious intent. On the contrary, they were trying to benefit the business by being more productive. Shadow IT poses a risk to the organization because it puts sensitive information in the hands of vendors outside of the organization's control.
+
+## Competitors
+
+Competitors may engage in corporate espionage designed to steal sensitive information from your organization and use it to their own business advantage. This may include theft of customer information, stealing proprietary software, identifying confidential  product development plans, or gaining access to any other information that would benefit the competitor. In some cases, competitors will use a disgruntled insider to get information from your company. They may also seek out insider information available for purchase on the dark web, a shadowy anonymous network often engaging in illicit activity.
+
+![picture 1](../images/d629aa21f286158df12104e371a48ef4eb376f71687371b6abb83e7ee62cf256.png)  
+
+Your organization may want to consider other specific threat actors based on your threat models and profile, so you should not consider this a complete list. You should conduct periodic organizational threat assessments to determine what types of threat actors are most likely to target your organization, and why.
+
+## Threat Vectors
+
+Threat actors targeting an organization need some means to gain access to that organization's information or systems. Threat vectors are the means that threat actors use to obtain that access.
+
+## Email and Social Media
+
+Email is one of the most commonly exploited threat vectors. Phishing messages, spam messages, and other email-borne attacks are a simple way to gain access to an organization's network. These attacks are easy to execute and can be launched against many users simultaneously. The benefit for the attacker is that they generally need to succeed only one time to launch a broader attack. Even if 99.9 percent of users ignore a phishing message, the attacker needs the login credentials of only a single user to begin their attack.
+
+## Wireless Networks
+
+Wireless networks offer an even easier path onto an organization's network. Attackers don't need to gain physical access to the network or your facilities if they are able to sit in the parking lot and access your organization's wireless network.
+
+## Removable Media
+
+Attackers also commonly use removable media, such as USB drives, to spread malware and launch their attacks. An attacker might distribute inexpensive USB sticks in parking lots, airports, or other public areas, hoping that someone will find the device and plug it into their computer, curious to see what it contains. As soon as that happens, the device triggers a malware infection that silently compromises the finder's computer and places it under the control of the attacker.
+
+## Cloud
+
+Cloud services can also be used as an attack vector. Attackers routinely scan popular cloud services for files with improper access controls, systems that have security flaws, or accidentally published API keys and passwords.
+
+## Third-Party Risks
+
+Sophisticated attackers may attempt to interfere with an organization's IT supply chain, gaining access to devices at the manufacturer or while the devices are in transit from the manufacturer to the end user.
+
+## Threat Data and Intelligence
+
+Threat intelligence is the set of activities and resources available to cybersecurity professionals seeking to learn about changes in the threat environment.
