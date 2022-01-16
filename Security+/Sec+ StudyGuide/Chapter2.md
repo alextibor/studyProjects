@@ -49,3 +49,25 @@ The resources of hacktivists also vary somewhat. Many are working alone and have
 This type of anonymous collective of attackers can prove quite powerful. Large groups will always have more time and other resources than a lone attacker. Due to their distributed and anonymous nature, it is difficult to identify, investigate, and prosecute participants in their hacking activities. The group lacks a hierarchical structure, and the capture of one member is unlikely to compromise the identities of other members.
 
 ## Criminal Syndicates
+
+Organized crime appears in any case where there is money to be made, and cybercrime is no exception. The ranks of cybercriminals include links to traditional organized crime families in the United States, outlaw gangs, the Russian Mafia, and even criminal groups organized specifically for the purpose of engaging in cybercrime.
+
+The common thread among these groups is motive and intent. The motive is simply illegal financial gain. Organized criminal syndicates do not normally embrace political issues or causes, and they are not trying to demonstrate their skills. In fact, they would often prefer to remain in the shadows, drawing as little attention to themselves as possible. They simply want to generate as much illegal profit as they possibly can.
+
+In their 2019 Internet Organized Crime Threat Assessment (IOCTA), the European Union Agency for Law Enforcement Cooperation (EUROPOL) found that organized crime groups were active in a variety of cybercrime categories, including the following:
+
+**Cyber-dependent crime**, including ransomware, data compromise, distributed denial-of-service (DDoS) attacks, website defacement, and attacks against critical infrastructure.
+
+**Child sexual exploitation**, including child pornography, abuse, and solicitation.
+
+**Payment fraud**, including credit card fraud and business email compromises.
+
+**Dark web** activity, including the sale of illegal goods and services.
+
+**Terrorism** support, including facilitating the actions of terrorist groups online.
+
+**Cross-cutting crime factors**, including social engineering, money mules, and the criminal abuse of cryptocurrencies.
+
+Organized crime tends to have attackers who range from moderately skilled to highly skilled. **It is rare for script kiddies to be involved in these crimes, and if they are, they tend to be caught rather quickly.** The other defining factor is that organized crime groups tend to have more resources, both in terms of time and money, than do hacktivists or script kiddies. They often embrace the idea that “it takes money to make money” and are willing to invest in their criminal enterprises in the hopes of yielding a significant return on their investments.
+
+## Advanced Persistent Threats (APTs)
