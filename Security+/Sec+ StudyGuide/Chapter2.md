@@ -124,4 +124,127 @@ Sophisticated attackers may attempt to interfere with an organization's IT suppl
 
 ## Threat Data and Intelligence
 
-Threat intelligence is the set of activities and resources available to cybersecurity professionals seeking to learn about changes in the threat environment.
+Threat intelligence is the set of activities and resources available to cybersecurity professionals seeking to learn about changes in the threat environment. Building a threat intelligence program is a crucial part of any organization's approach to cybersecurity. If you're not familiar with current threats, you won't be able to build appropriate defenses to protect your organization against those threats. Threat intelligence information can also be used for predictive analysis to identify likely risks to the organization.
+
+There are many sources of threat intelligence, ranging from open source intelligence (OSINT) that you can gather from publicly available sources, to commercial services that provide proprietary or closed-source intelligence information. An increasing number of products and services have the ability to consume threat feed data, allowing you to leverage it throughout your infrastructure and systems.
+
+Regardless of their source, threat feeds are intended to provide up-to-date detail about threats in a way that your organization can leverage.
+
+Threat feeds often include technical details about threats, such as IP addresses, hostnames and domains, email addresses, URLs, file hashes, file paths, CVE numbers, and other details about a threat. Additional information is often included to help make the information relevant and understandable, including details of what may make your organization a target or vulnerable to the threat, descriptions of threat actors, and even details of their motivations and methodologies.
+
+Vulnerability databases are also an essential part of an organization's threat intelligence program. Reports of vulnerabilities certainly help direct an organization's defensive efforts, but they also provide valuable insight into the types of exploit being discovered by researchers.
+
+Threat intelligence sources may also provide indicators of compromise (IoCs). These are the telltale signs that an attack has taken place and may include file signatures, log patterns, and other evidence left behind by attackers. IoCs may also be found in file and code repositories that offer threat intelligence information.
+
+## Exploring the Dark Web
+
+The dark web is a network run over standard Internet connections but using multiple layers of encryption to provide anonymous communication. Hackers often use sites on the dark web to share information and sell credentials and other data stolen during their attacks.
+
+Threat intelligence teams should familiarize themselves with the dark web and include searches of dark web marketplaces for credentials belonging to their organizations or its clients.
+
+## Proprietary and Closed-Source Intelligence
+
+Commercial security vendors, government organizations, and other security-centric organizations also create and make use of proprietary, or closed-source intelligence. They do their own information gathering and research, and they may use custom tools, analysis models, or other proprietary methods to gather, curate, and maintain their threat feeds.
+
+The sheer amount of data available via open source threat intelligence feeds can be overwhelming for many organizations. Combing through threat feeds to identify relevant threats, and then ensuring that they are both well-defined and applied appropriately for your organization, can require massive amounts of effort. Validating threat data can be difficult in many cases, and once you are done making sure you have quality threat data, you still have to do something with it!
+
+## When a Threat Feed Fails
+
+It is critical that you have reliable, up-to-date feeds to avoid situations where one feed are slow in implement solutions. You may want to have multiple feeds that you can check against each other—often one feed may be faster or release information sooner, so multiple good-quality, reliable feeds can be a big help!
+
+## Threat maps
+
+Threat maps provide a geographic view of threat intelligence. Many security vendors offer high-level maps that provide real-time insight into the cybersecurity threat landscape. However, threat map information should always be taken with a grain of salt because geographic attribution is notoriously unreliable.
+
+## Assessing Threat Intelligence
+
+Regardless of the source of your threat intelligence information, you need to assess it.
+
+1. Is it timely? A feed that is operating on delay can cause you to miss a threat, or to react after the threat is no longer  relevant.
+
+2. Is the information accurate? Can you rely on what it says, and how likely is it that the assessment is valid? Does it rely on a single source or multiple sources? How often are those sources correct?
+   
+3. Is the information relevant? If it describes the wrong platform, software, or reason for the organization to be targeted, the data may be very timely, very accurate, and completely irrelevant to your organization.
+
+One way to summarize the threat intelligence assessment data is via a confidence score. Its a way to summarize the threat intelligence assessment data. Confidence scores allow organizations to filter and use threat intelligence based on how much trust they can give it.
+
+## Assessing the Confidence Level of Your Intelligence
+
+Many threat feeds will include a confidence rating, along with a descriptive scale. For example, ThreatConnect uses six levels of confidence:
+
+    Confirmed (90–100) uses independent sources or direct analysis to prove that the threat is real.
+    
+    Probable (70–89) relies on logical inference, but does not directly confirm the threat.
+    
+    Possible (50–69) is used when some information agrees with the analysis, but the assessment is not confirmed.
+    
+    Doubtful (30–49) is assigned when the assessment is possible but not the most likely option, or the assessment cannot be proven or disproven by the information that is available.
+    
+    Improbable (2–29) means that the assessment is possible but is not the most logical option, or it is refuted by other information that is available.
+    
+    Discredited (1) is used when the assessment has been confirmed to be inaccurate or incorrect.
+
+## Threat Indicator Management and Exchange
+
+Managing threat information at any scale requires standardization and tooling to allow the threat information to be processed and used in automated ways. Indicator management can be much easier with a defined set of terms. That's where structured markup languages like STIX and OpenIOC come in.
+
+Structured Threat Information eXpression (STIX) is an XML language originally sponsored by the U.S. Department of Homeland Security. In its current version, STIX 2.0 defines 12 STIX domain objects, including things like attack patterns, identities, malware, threat actors, and tools. These objects are then related to each other by one of two STIX relationship object models: either as a relationship or a sighting. A STIX 2.0 JSON description of a threat actor might read as follows:
+
+    {
+        "type": "threat-actor",
+        "created": "2019-10-20T19:17:05.000Z",
+        "modified": "2019-10-21T12:22:20.000Z",
+        "labels": [ "crime-syndicate"],
+        "name": "Evil Maid, Inc",
+        "description": "Threat actors with access to hotel rooms",
+        "aliases": ["Local USB threats"],
+        "goals": ["Gain physical access to devices", "Acquire data"],
+        "sophistication": "intermediate",
+        "resource:level": "government",
+        "primary_motivation": "organizational-gain"
+    }
+
+A companion to STIX is the Trusted Automated eXchange of Indicator Information (TAXII) protocol. TAXII is intended to allow cyber threat information to be communicated at the application layer via HTTPS. TAXII is specifically designed to support STIX data exchange.
+
+Another option is the Open Indicators of Compromise (OpenIOC) format. Like STIX, OpenIOC is an XML-based framework. The OpenIOC schema was developed by Mandiant, and it uses Mandiant's indicators for its base framework. A typical IOC includes metadata like the author, the name of the IOC, and a description of the indicator. The full definition of the IOC may also include details of the actual compromise(s) that led to the indicator's discovery.
+
+## Public and Private Information Sharing Centers
+
+Threat intelligence communities have been created to share threat information. In the United States, organizations known as Information Sharing and Analysis Centers (ISACs) helpinfrastructure owners and operators share threat information and provide tools and assistance to their members.
+
+## Conducting Your Own Research
+
+As a security professional, you should continue to conduct your own research into emerging cybersecurity threats.
+
+1. Vendor security information websites
+
+2. Vulnerability and threat feeds from vendors, government agencies, and private organizations
+
+3. Academic journals and technical publications, such as Internet Request for Comments (RFC) documents. RFC documents are particularly informative because they contain the detailed technical specifications for Internet protocols.
+
+4. Professional conferences and local industry group meetings
+   
+5. Social media accounts of prominent security professionals
+
+As you reference these sources, keep a particular eye out for information on adversary tactics, techniques, and procedures (TTPs). Learning more about the ways that attackers function allows you to improve your own threat intelligence program.
+
+## Summary
+
+Cybersecurity professionals must have a strong working understanding of the threat landscape in order to assess the risks facing their organizations and the controls required to mitigate those risks. Cybersecurity threats may be classified based on their internal or external status, their level of sophistication and capability, their resources and funding, and their intent and motivation.
+
+Threat actors take many forms, ranging from relatively unsophisticated script kiddies who are simply seeking the thrill of a successful hack to advanced nation-state actors who use cyberattacks as a military weapon to achieve political advantage. Hacktivists, criminal syndicates, competitors, and other threat actors may all target the same organizations for different reasons.
+
+Cyberattacks come through a variety of threat vectors. The most common vectors include email and social media; other attacks may come through direct physical access, supply chain exploits, network- based attacks, and other vectors. Organizations should build robust threat intelligence programs to help them stay abreast of emerging threats and adapt their controls to function in a changing environment.
+
+## Exam Essentials
+
+**Threat actors differ in several key attributes.** We can classify threat actors using four major criteria. First, threat actors may be internal to the organization, or they may come from external sources. Second, threat actors differ in their level of sophistication and capability. Third, they differ in their available resources and funding. Finally, different threat actors have different motivations and levels of intent.
+
+**Threat actors come from many different sources.** Threat actors may be very simplistic in their techniques, such as script kiddies using exploit code written by others, or quite sophisticated, such as the advanced persistent threat posed by nation-state actors and criminal syndicates. Hacktivists may seek to carry out political agendas, whereas competitors may seek financial gain. We can group hackers into white-hat, gray-hat, and black-hat categories based on their motivation and authorization.
+
+**Attackers exploit different vectors to gain initial access to an organization.** Attackers may attempt to gain initial access to an organization remotely over the Internet, through a wireless connection, or by attempting direct physical access. They may also approach employees over email or social media. Attackers may seek to use removable media to trick employees into unintentionally compromising their networks, or they may seek to spread exploits through cloud services. Sophisticated attackers may attempt to interfere with an organization's supply chain.
+
+**Threat intelligence provides organizations with valuable insight into the threat landscape.** Security teams may leverage threat intelligence from public and private sources to learn about current threats and vulnerabilities. They may seek out detailed indicators of compromise and perform predictive analytics on their own data. Threat intelligence teams often supplement open source and closed-source intelligence that they obtain externally with their own research.
+
+**Security teams must monitor for supply chain risks.** Modern enterprises depend on hardware, software, and cloud service vendors to deliver IT services to their internal and external customers. Vendor management techniques protect the supply chain against attackers seeking to compromise these external links into an organization's network. Security professionals should pay particular attention to risks posed by outsourced code development, cloud data storage, and integration between external and internal systems.
+
