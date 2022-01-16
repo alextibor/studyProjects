@@ -147,7 +147,7 @@ DLP systems work in two different environments:
 
     Network DLP
 
-Host-based DLP uses software agents installed on systems that search those systems for the presence of sensitive information Taking the time to secure or remove information now may pay handsome rewards down the road if the device is lost, stolen, or compromised.
+Host-based DLP uses software agents installed on systems that search those systems for the presence of sensitive information. Taking the time to secure or remove information now may pay handsome rewards down the road if the device is lost, stolen, or compromised.
 
 Host-based DLP can also monitor system configuration and user actions, blocking undesirable actions. For example, some organizations use host-based DLP to block users from accessing USB-based removable media devices that they might use to carry information out of the organization's secure environment.
 
