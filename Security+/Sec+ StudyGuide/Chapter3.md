@@ -80,3 +80,92 @@ Preventing software keylogging typically focuses on normal security best practic
 
 In more complex security environments where underlying systems cannot be trusted, use of bootable USB drives can prevent use of a potentially compromised underlying operating system.
 
+## Logic Bombs
+
+Logic bombs, they are functions or code that are placed inside other programs that will activate when set conditions are met.
+Though relatively rare compared to other types of malware, logic bombs are a consideration in software development and systems management, and they can have a significant impact if they successfully activate.
+
+## Viruses
+
+Computer viruses are malicious programs that self-copy and self- replicate. Viruses require one or more infection mechanisms that they use to spread themselves, typically paired with some form of search capability to find new places to spread to. Viruses also typically have both a trigger, which sets the conditions for when the virus will execute, and a payload, which is what the virus does, delivers, or the actions it performs. Viruses come in many varieties, including: 
+
+    Memory-resident viruses, which remain in memory while the system of device is running.
+
+    Non-memory-resident viruses, which execute, spread, and then shut down.
+
+    Boot sector viruses, which reside inside the boot sector of a drive or storage media.
+
+    Macro viruses, which use macros or code inside word processing software or other tools to spread.
+
+    Email viruses, which spread via email either as attachments or as part of the email itself using flaws within email clients.
+
+## Fileless Viruses
+
+Fileless virus attacks are similar to traditional viruses in a number of critical ways. They spread via methods like spam email and malicious websites, and they exploit flaws in browser plug-ins and web browsers themselves. Once they successfully find a way into a system, they inject themselves into memory and conduct further malicious activity, including adding the ability to reinfect the system by the same process at reboot through a registry entry or other technique. At no point do they require local file storage, because they remain memory resident throughout their entire active life—in fact, the only stored artifact of many fileless attacks would be the artifacts of their persistence techniques, like the registry entry shown in Figure 3.3.
+
+![picture 3](../images/0df3988a72de075475aaf7bd4627f213e74375eb9aedc922f0599d09a147ab86.png)
+
+As you might expect from the infection flow diagram in Figure 3.3, fileless attacks require a vulnerability to succeed, so ensuring that browsers, plug-ins, and other software that might be exploited by attackers are up to date and protected can prevent most attacks. Using antimalware tools that can detect unexpected behavior from scripting tools like PowerShell can also help stop fileless viruses. Finally, network-level defenses like IPSs, as well as reputation-based protection systems, can prevent potentially vulnerable systems from browsing known malicious sites.
+
+## Spyware
+
+Spyware is malware that is designed to obtain information about an individual, organization, or system. Many spyware packages track users' browsing habits, installed software, or similar information and report it back to central servers. Some spyware is relatively innocuous, but malicious spyware exists that targets sensitive data, allows remote access to web cameras, or otherwise provides illicit or undesirable access to the systems it is installed on. Spyware is associated with identity theft and fraud, advertising and redirection of traffic, digital rights management (DRM) monitoring, and with stalkerware, a type of spyware used to illicitly monitor partners in relationships.
+
+Spyware is most frequently combated using antimalware tools, although user awareness can help prevent the installation of spyware that is included in installers for software.
+
+## Potentially Unwanted Programs (PUPs)
+
+PUPs are programs that may not be wanted by the user but are not as dangerous as other types of malware. PUPs are typically installed without the user's awareness or as part of a software bundle or other installation. PUPs include adware, browser toolbars, web browser–tracking programs, and others. A discussion about awareness and best practices with the end user, removal with appropriate tools, and a return to normal operation may be all that you need to do with most PUP installations.
+
+## Malicious Code
+
+Scripts and custom-built code that isn't malware can both be used by malicious actors as well. These attacks can happen locally or remotely via a network connection, and they often leverage built-in tools like Windows PowerShell and Visual Basic, or Bash and Python on Linux systems. Even macros like those built into Microsoft's Office Suite can be leveraged by attackers.
+
+PowerShell, the built-in Windows scripting language, is a popular target for malicious actors because of the powerful capabilities it provides.
+
+Defenses against PowerShell attacks include using Constrained Language Mode, which limits sensitive commands in PowerShell, and using Windows Defender's built-in Application Control tool or AppLocker to validate scripts and to limit which modules and plug- ins can be run. It is also a good idea to turn on logging for PowerShell as well as Windows command-line auditing.
+
+Microsoft Office macros written in Visual Basic for Applications (VBA) are another target for attackers. Although macro viruses are no longer as common as they once were, macros embedded in Office documents and similar functionality in other applications are potential targets for attackers, and if new vulnerabilities are discovered in Office, the popularity of macro viruses could increase. Office disables macros by default. This means that the primary defense against macro-based malware is educating users to not enable macros on unknown or untrusted documents.
+
+Linux systems are also targeted. Attackers may leverage common languages and tools like Python, Perl, and Bash as part of their attack process. Languages like these can be used to create persistent remote access using bind or reverse shells, as well as a multitude of other useful exploit tools. Metasploit, a popular exploit tool, includes rootkits that leverage each of these languages.
+
+Preventing use of built-in or preexisting tools like programming languages and shells makes security that prevents attackers from gaining access to the systems through vulnerabilities, compromised accounts, and other means one of the most important layers of defense.
+
+There are existing tools to search for rootkits like chkrootkit and rkhunter, which can help defenders search for and identify rootkits. Behavior-based security tools can also monitorsystem logs and network traffic to help defenders identify compromised systems.
+
+**Adversarial Artificial Intelligence**
+
+Artificial Intelligence (AI) is used by attackers for malicious purposes. The focus of adversarial AI attacks currently tends to deal with data poisoning, providing security and analytic AI and ML algorithms with adversarial input that serves the attacker's purposes, or attacks against privacy.
+
+It helps to better understand two key terms in use here. The first is artificial intelligence, which focuses on accomplishing “smart” tasks by combining ML, deep learning, and related techniques that are intended to emulate human intelligence. The second is machine learning, which is a subset of AI. ML systems modify themselves as they evolve to become better at the task that they are set to accomplish.
+
+Every new technology provides attackers with a new attack surface, and ML is no different. Tainted training data for machine learning algorithms will be a target, and the security of machine learning algorithms themselves will be increasingly important. At the same time, new attack and defense techniques will be developed. As a security analyst, you can take some basic steps now:
+
+    Understand the quality and security of source data.
+
+    Work with AI and ML developers to ensure that they are working in secure environments and that data sources, systems, and tools are maintained in a secure manner.
+
+    Ensure that changes to AI and ML algorithms are reviewed, tested, and documented.
+
+    Encourage reviews to prevent intentional or unintentional bias in algorithms.
+
+    Engage domain experts wherever possible.
+
+## Summary
+
+Malware comes in many forms. Ransomware encrypts your files or threatens to expose your data if you don't make a payment or perform an action. Trojans look like legitimate software but are actually malicious. Worms spread themselves, usually by targeting vulnerable applications or services. Rootkits help attackers access a system and maintain access to the system over time. Backdoors bypass authentication and system security to allow attackers or even sometimes legitimate users in through a concealed access method. Bots make systems part of a command-and-control network, allowing attackers to control huge numbers of systems at once to do things like conduct DDoS attacks. Keyloggers capture keystrokes so that attackers can steal passwords or other sensitive data, and logic bombs wait for a specific occurrence before causing damage or taking other unwanted actions. Viruses self-copy and self-spread. Fileless viruses are memory resident and don't reside on disks, making them harder to find and remove.
+
+In addition to truly malicious malware, spyware is a type of malware that spies on users, providing information to advertisers or others. Potentially unwanted programs (PUPs) are not as dangerous as other types of malware, but they may be annoying like adware or other software that most users wouldn't want on their systems.
+
+Malicious code like scripts and macros can also be a threat to systems, and attackers often leverage built-in scripting languages like PowerShell or Bash, as well as common programming languages like Python and Perl, to conduct malicious activities. Ensuring that malicious code cannot easily be run is part of securing systems against this type of attack.
+
+Finally, new attackers are appearing in the field of adversarial AI. As machine learning and artificial intelligence are becoming more common, new methods focus on how to exploit AI and ML systems by providing them with bad data or by modifying their programming to produce desired malicious effects.
+
+## Exam Essentials
+
+**There are many types of malware.** Malware includes ransomware, Trojans, worms, potentially unwanted programs, fileless viruses, bots and their associated command-and-control systems, crypto malware, logic bombs, spyware, keyloggers, remote access Trojans, rootkits, and backdoors. Each type of malware hasdistinctive elements, and you need to know what identifies each type of malware, how to identify it, what controls are commonly deployed against it, and what to do if you encounter it.
+
+**Scripts and other code can be malicious.** Built-in scripting languages and tools like PowerShell, Python, Bash, and macro languages like Visual Basic for Applications (VBA) can all be leveraged by attackers. Fileless malware often leverages PowerShell to download and execute itself once it leverages a flaw in a browser or plug-in to gain access to a Windows system. Attackers can use languages like Python to run code that can be hard to detect on Linux systems, allowing remote access and other activities to occur. Macros included in Office documents require users to enable them, but social engineering can help attackers to bypass default security settings.
+
+**Adversarial artificial intelligence** is an emerging threat. As artificial intelligence and machine learning become more common throughout the industry, attackers are also starting to look at how to leverage them as part of their attacks. Introducing bad or tainted data into machine learning environments can help attackers conceal malware or otherwise decrease the effectiveness of ML tools and AI- based detection and security systems. At the same time, the algorithms that are used for AI and ML tools can also be attacked, and modifications to those algorithms could benefit attackers.
+
