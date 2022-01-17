@@ -9,22 +9,6 @@
   </p>
 </div>
 
-</br >
-
-
-## Chapters
-
-* [Chapter 1](https://github.com/alextibor/studyProjects/blob/master/Security%2B/Sec%2B%20StudyGuide/Chapter1.md)
-* [Chapter 3]()
-* [Chapter 4]()
-* [Chapter 5]()
-
-## Flashcards in CSV
-
-[Enter here](https://github.com/alextibor/studyProjects/tree/master/Security%2B/FlashcardsBackup)
-  
-</br >
-
 ---
 
 image: Flaticon.com
