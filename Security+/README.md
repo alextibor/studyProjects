@@ -7,6 +7,19 @@
   <p align="center">
     Im studiyng to take Security+ certification. Here i will store my drafts and summaries
   </p>
+
+  ![GitHub repo size](https://img.shields.io/github/repo-size/alextibor/beecrowdExercices) ![GitHub last commit](https://img.shields.io/github/last-commit/alextibor/beecrowdExercices) ![GitHub language count](https://img.shields.io/github/languages/count/alextibor/beecrowdExercices)
+  
+  <p align="center">
+    If you found some error, please report!
+    <br />
+    <a href="https://github.com/alextibor/studyProjects/tree/master/Security%2B"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/alextibor/studyProjects/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/alextibor/studyProjects/issues">Request Feature</a>
+  </p>
 </div>
 
 </br >
