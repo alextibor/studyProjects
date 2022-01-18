@@ -5,7 +5,7 @@
   <h3 align="center">CompTia Security+ SY0-601</h3>
 
   <p align="center">
-    Im studiyng to take Security+ certification. Here i will store my drafts and summaries
+    Im studiyng to take Security+ certification. Here i will store my drafts, summaries and flashcards!
   </p>
 
   ![GitHub repo size](https://img.shields.io/github/repo-size/alextibor/beecrowdExercices) ![GitHub last commit](https://img.shields.io/github/last-commit/alextibor/beecrowdExercices) ![GitHub language count](https://img.shields.io/github/languages/count/alextibor/beecrowdExercices)
