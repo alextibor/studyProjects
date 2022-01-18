@@ -53,3 +53,13 @@ Cybersecurity professionals configuring vulnerability scans should pay careful a
 
 Typically, administrators create a new scan by beginning with a template.
 
+TODO REVISAR ESSE TOPICO, PG 171
+
+## Supplementing Network Scans
+
+Basic vulnerability scans run over a network, probing a system from a distance. This provides a realistic view of the system's security bysimulating what an attacker might see from another network vantage point. However, the firewalls, intrusion prevention systems, and other security controls that exist on the path between the scanner and the target server may affect the scan results, providing an inaccurate view of the server's security independent of those controls.
+
+Additionally, many security vulnerabilities are difficult to confirm using only a remote scan. Vulnerability scans that run over the network may detect the possibility that a vulnerability exists but be unable to confirm it with confidence, causing a false positive result that requires time-consuming administrator investigation.
+
+
+
