@@ -1,4 +1,4 @@
-## Chapter 4 - Social Engineering, Physical, and Password Attacks
+# Chapter 4 - Social Engineering, Physical, and Password Attacks
 
 Social engineering techniques focus on the human side of information security. Using social engineering techniques, security professionals and attackers can accomplish a variety of tasks ranging from acquiring information to gaining access to buildings, systems, and networks.
 
@@ -105,3 +105,43 @@ Although social engineering is often used to acquire passwords or access, there 
 **Password spraying** attacks are a form of brute-force attack that attempts to use a single password or small set of passwords against many accounts. This approach can be particularly effective if you know that a target uses a specific default password or a set of passwords. For example, if you were going to attack a sports team's fan website, common chants for the fans, names of well-known players, and other common terms related to the team might be good candidates for a password spraying attack.
 
 **Dictionary attacks** are yet another form of brute-force attack that uses a list of words for their attempts. Commonly available brute-force dictionaries exist, and tools like John the Ripper, a popular open source password cracking tool, have word lists (dictionaries) built in. Many penetration testers build their own custom dictionaries as part of their intelligence gathering and reconnaissance processes.
+
+Regardless of the password attack mechanism, an important differentiator between attack methods is whether they occur online, and thus against a live system that may have defenses in place, or if they are offline against a compromised or captured password store.
+
+Rainbow tables are an easily searchable database of precomputed hashes using the same hashing methodology as the captured password file. Thus, if you captured a set of passwords that were hashed using MD5, you could compute or even purchase a full set of passwords for most reasonable password lengths, and then simply look up the hashes of those passwords in the table.
+
+    If you're not familiar with the concept of hashing, now is a good time to review it. A hash is a one-way cryptographic function that takes an input and generates a unique and repeatable output from that input. No two inputs should ever generate the same hash, and a hash should not be reversible so that the original input can be derived from the hash. Rainbow tables don't allow you to break hashes, but they brute-force the solution by using computational power to create a database where hashes and the value that created them can be looked up. You still aren't reversing the hash, but you are able to figure out what plain text leads to that hash being created!
+
+## Physical Attacks
+
+Social engineering and on-site penetration testing often go hand in hand, and thus the physical side of social engineering has its own set of tools and techniques.
+
+**Malicious flash drive** Penetration testers (and potentially attackers) may drop drives in locations where they are likely to be picked up and plugged in by unwitting victims at their target organization. An additional layer of social engineering is sometimes accomplished by labeling the drives with compelling text that will make them more likely to be plugged in: performance reviews, financial planning, or other key words that will tempt victims. 
+
+Malicious flash drives and other devices are also sometimes effectively a Trojan, as when devices have shipped or been delivered with malware included either from the factory or through modifications made in the supply chain.
+
+**Supply chain attacks** attempt to compromise devices, systems, or software before it even reaches the organization.
+
+
+## Summary
+
+Social engineering techniques focus on human reactions and psychology to gather information and to perform attacks against individuals and organizations. The broad range of social engineering techniques rely on common principles that describe ways to influence people based on their reaction to pressures or stress.
+
+Security professionals need to be aware of how social engineering is leveraged in attacks like phishing, impersonation, and reconnaissance efforts. Each technique has its own distinctive set of social engineering techniques and impacts that help make it unique.
+
+Physical attacks against organizations also rely on social engineering concepts to help them succeed. Use of malicious USB devices like cables and flash drives take advantage of human behavior to lure users into plugging them in, and attacks against access cards may useskimmers or other techniques to allow cloning of the access cards used by an organization.
+
+Password attacks focus on acquisition of passwords in an encrypted, hashed, or plain-text form, or on guessing passwords in order to gain access to systems or devices.
+
+All of these attacks need to be assessed and considered in the operating environment of your organization. As organizations move from local physical infrastructure to cloud services, the threat and attack models that you must consider also need to change.
+
+## Exam Essentials 
+
+**There are seven key principles for social engineering.** The Security+ exam outline focuses on seven key social engineering principles. Authority relies on the victim believing that the person has a reason to be in charge or in a position of power. Intimidation relies on bullying or scaring the target into doing what is desired. Consensus builds on the trust that individuals have in others and what they think others are doing or believe. Scarcity leverages human reactions to limited supply. Familiarity uses what you expect and what you are used to against you. Trust is built and then used against the target. Urgency, the final item, makes what the social engineer expresses seem as if it is needed immediately.
+
+**Many techniques are used for social engineering**. Many adversarial and security techniques rely on social engineering. Phishing and its related techniques of spear phishing, whaling, smishing, and vishing seek to gain personal information using social engineering techniques to drive responses. Techniques like tailgating and shoulder surfing are used in person to gain access to information. Eliciting information and impersonation can be used to acquire data or access. Across these and other techniques, a combination of technical, interpersonal, and physical techniques are used to accomplish the social engineer's goal.
+
+**Passwords can be acquired and cracked in many ways.** Password attacks can be conducted both online against live systems and offline using captured password stores. Brute-force attacks like spraying and dictionary attacks as well as password cracking canrecover passwords in many circumstances. Unencrypted or plain-text passwords and improper storage methods make attacks even easier for attackers who can access them.
+
+**Physical attacks rely on social engineering.** Social engineers use in-person, physical attacks to access organizations and networks. Malicious USB flash drives and cables, as well as card cloning and skimming attacks, are all part of a social engineer's toolkit. In addition, social engineers and other attackers may target the supply chain, which can be at risk for physical attacks through modifications of devices and software before they arrive at your organization. Social engineers who can access suppliers or the logistical chain that your organization relies on can compromise your security before you even take possession of your purchases.
+

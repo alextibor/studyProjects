@@ -1,4 +1,4 @@
-## Chapter 1 - Today's Security Professional
+# Chapter 1 - Today's Security Professional
 
 Security professionals are responsible for protecting the confidentiality, integrity, and availability of information and information systems used by their organizations.
 
