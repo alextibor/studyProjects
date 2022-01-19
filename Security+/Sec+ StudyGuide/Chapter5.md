@@ -106,14 +106,13 @@ Network vulnerability scanners are capable of probing a wide range of network-co
 
 The following tools are examples of network vulnerability scanners:
 
-    Tenable's Nessus is a well-known and widely respected network vulnerability scanning product that was one of the earliest products in this field. 
+- Tenable's Nessus is a well-known and widely respected network vulnerability scanning product that was one of the earliest products in this field. 
 
-    Qualys's vulnerability scanner is a more recently developed commercial network vulnerability scanner that offers a unique deployment model using a software-as-a-service (SaaS) management console to run scans using appliances located both in on-premises datacenters and in the cloud.
+- Qualys's vulnerability scanner is a more recently developed commercial network vulnerability scanner that offers a unique deployment model using a software-as-a-service (SaaS) management console to run scans using appliances located both in on-premises datacenters and in the cloud.
 
-    Rapid7's Nexpose is another commercial vulnerability management system that offers capabilities similar to those of Nessus and Qualys.
+- Rapid7's Nexpose is another commercial vulnerability management system that offers capabilities similar to those of Nessus and Qualys.
 
-    The open source OpenVAS offers a free alternative to commercial vulnerability scanners.
-
+- The open source OpenVAS offers a free alternative to commercial vulnerability scanners.
 
 Every mature organization should have at least one scanner in their toolkit.
 
@@ -166,10 +165,50 @@ Software vendors eventually discontinue support for every product they make. Thi
 
 Vulnerability scans may also highlight weak configuration settings on systems, applications, and devices. These weak configurations may include the following:
 
-The use of default settings that pose a security risk, such as administrative setup pages that are meant to be disabled before moving a system to production. 
+- The use of default settings that pose a security risk, such as administrative setup pages that are meant to be disabled before moving a system to production. 
 
-The presence of unsecured accounts, including both normal user account and unsecured root accounts with administrative privileges. Accounts may be considered unsecured when they either lack strong authentication or use default passwords.
+- The presence of unsecured accounts, including both normal user account and unsecured root accounts with administrative privileges. Accounts may be considered unsecured when they either lack strong authentication or use default passwords.
 
-Open ports and services that are not necessary to support normal system operations. This will vary based on the function of a server or device but, in general, a system should expose only the minimum number of services necessary to carry out its function.
+- Open ports and services that are not necessary to support normal system operations. This will vary based on the function of a server or device but, in general, a system should expose only the minimum number of services necessary to carry out its function.
 
-Open permissions that allow users access that violates the principle of least privilege.
+- Open permissions that allow users access that violates the principle of least privilege.
+
+These are just a few examples of the many weak configuration settings that may jeopardize security.
+
+#### `Be sure that you understand these issues, because they are likely to appear on exam questions!`
+
+## Error Messages
+
+Many application development platforms support **debug modes** that give developers crucial error information needed to troubleshoot applications in the development process. Debug mode typically provides detailed information on the inner workings of an application and server, as well as supporting databases. Although this information can be useful to developers, it can inadvertently assist an attacker seeking to gain information about the structure of a database, authentication mechanisms used by an application, or other details. For this reason, vulnerability scans do alert on the presence of debug mode on scanned servers. Solving this issue requires the cooperation of developers and disabling debug modes on systems with public exposure.
+
+## Insecure Protocols
+
+Many of the older protocols used on networks in the early days of the Internet were designed without security in mind. They often failed to use encryption to protect usernames, passwords, and the content sent over an open network, exposing the users of the protocol to eavesdropping attacks. Telnet is one example of an insecure protocol used to gain command-line access to a remote server. The File Transfer Protocol (FTP) provides the ability to transfer files between systems but does not incorporate security features.
+
+The solution for this issue is to simply switch to a more secure protocol. Fortunately, encrypted alternatives exist for both Telnet and FTP. System administrators can use Secure Shell (SSH) as a secure replacement for Telnet when seeking to gain command-lineaccess to a remote system. Similarly, the Secure File Transfer Protocol (SFTP) and FTP-Secure (FTPS) both provide a secure method to transfer files between systems.
+
+## Weak Encryption
+
+Encryption is a crucial security control used in every cybersecurity program to protect stored data and data in transit over networks. As with any control, however, encryption must be configured securely to provide adequate protection.
+
+When you implement encryption, you have two important choices to make:
+
+- The algorithm to use to perform encryption and decryption
+  
+- The encryption key to use with that algorithm
+
+If you use a weak encryption algorithm, it may be easily defeated by an attacker.If you choose an encryption key that is easily guessable because of its length or composition, an attacker may find it using a cryptographic attack.
+
+## Penetration Testing
+
+Penetration testing seeks to bridge the gap between the rote use of technical tools to test an organization's security and the power of those tools when placed in the hands of a skilled and determined attacker. These tests are time-consuming and require staff who are equally skilled and determined as the real-world attackers that will attempt to compromise the organization.
+
+## Adopting the Hacker Mindset
+
+Penetration testers must take a very different approach in their thinking. Instead of trying to defend against all possible threats, they only need to find a single vulnerability that they might exploit to achieve their goals. To find these flaws, they must think like the adversary who might attack the system in the real world. This approach is commonly known as adopting the hacker mindset. Cybersecurity professionals need to win every time; attackers need to win only once.
+
+## Reasons for Penetration Testing
+
+The answer to this question is that penetration testing provides us with visibility into the organization's security posture that simply isn't available by other means. Penetration testing does not seek to replace all the other cybersecurity activities of the organization. Instead, it complements and builds on those efforts. Penetration testers bring their unique skills and perspective to the table and can take the output of security tools and place them within the attacker's mindset, asking the question, “If I were an attacker, how could I use this information to my advantage?”
+
+CONTINUAR PAG 206
