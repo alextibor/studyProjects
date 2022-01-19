@@ -16,6 +16,3 @@ S 945
 
 S
 
-6hrs em 6hrs - Revisão. Leitura e FlashCards.
-
-Refazer: Chap 4

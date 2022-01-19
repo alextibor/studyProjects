@@ -44,7 +44,7 @@ Credential harvesting is the process of gathering credentials like usernames and
 
 ## Website Attacks
 
-Attacks against websites are also used by social engineers, and pharming is one example. Pharming attacks redirect traffic away from legitimate websites to malicious versions. Pharming typically requires a successful technical attack that can change DNS entries on a local PC or on a trusted local DNS server, allowing the traffic to be redirected.
+Attacks against websites are also used by social engineers, and **pharming** is one example. Pharming attacks redirect traffic away from legitimate websites to malicious versions. Pharming typically requires a successful technical attack that can change DNS entries on a local PC or on a trusted local DNS server, allowing the traffic to be redirected.
 
 Typo squatters use misspelled and slightly off but similar to the legitimate site URLs to conduct typosquatting attacks. Typo squatters rely on the fact that people will mistype URLs and end up on their sites, thus driving ad traffic or even sometimes using the typo-based website to drive sales of similar but not legitimate products.
 
@@ -120,8 +120,9 @@ Social engineering and on-site penetration testing often go hand in hand, and th
 
 Malicious flash drives and other devices are also sometimes effectively a Trojan, as when devices have shipped or been delivered with malware included either from the factory or through modifications made in the supply chain.
 
-**Supply chain attacks** attempt to compromise devices, systems, or software before it even reaches the organization.
+**Card cloning** attacks focus on capturing information from cards like RFID and magnetic stripe cards often used for entry access. Attackers may also conduct skimming attacks that use hidden or fake readers or social engineering and hand-held readers to capture (skim) cards, and then employ cloning tools to use credit cards and entry access cards for their own purposes.
 
+**Supply chain attacks** attempt to compromise devices, systems, or software before it even reaches the organization.
 
 ## Summary
 
