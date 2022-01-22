@@ -1,0 +1,11 @@
+1 - e)
+2 - 0010.AAAA.AAAA
+3 - Eth II
+
+4 - e)
+5 - 0010.AAAA.AAAA
+6 - k)
+7- HDLC
+8 - b)
+9 - 0010.2222.2222
+10 - Eth II
