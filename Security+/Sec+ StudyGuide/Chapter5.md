@@ -211,4 +211,19 @@ Penetration testers must take a very different approach in their thinking. Inste
 
 The answer to this question is that penetration testing provides us with visibility into the organization's security posture that simply isn't available by other means. Penetration testing does not seek to replace all the other cybersecurity activities of the organization. Instead, it complements and builds on those efforts. Penetration testers bring their unique skills and perspective to the table and can take the output of security tools and place them within the attacker's mindset, asking the question, “If I were an attacker, how could I use this information to my advantage?”
 
-CONTINUAR PAG 206
+## Benefits of Penetration Testing
+
+First and foremost, penetration testing provides us with knowledge that we can't obtain elsewhere. By conducting thorough penetration tests, we learn whether an attacker with the same knowledge, skills, and information as our testers would likely be able to penetrate our defenses. Second, in the event that attackers are successful, penetration testing provides us with an important blueprint for remediation.
+Cybersecurity professionals can trace the actions of the testers as they progressed through the different stages of the attack and close the series of open doors that the testers passed through. This provides us with a more robust defense against future attacks. Finally, penetration tests can provide us with essential, focused information on specific attack targets.
+
+## Threat Hunting
+
+As with penetration testing, cybersecurity professionals engaged in threat hunting seek to adopt the attacker's mindset and imagine how hackers might seek to defeat an organization's security controls.
+Threat hunting builds on a cybersecurity philosophy known as the “presumption of compromise.” This approach assumes that attackers have already successfully breached an organization and searches out the evidence of successful attacks.
+
+
+
+
+
+
+
