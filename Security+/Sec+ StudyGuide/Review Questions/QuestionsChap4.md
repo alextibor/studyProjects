@@ -140,6 +140,8 @@ C. Dumpster diving
 
 D. Phishing
 
+12. D. Shoulder surfing, tailgating, and dumpster diving are all in- person physical attacks and are not something that will be in Lucca's control with a major cloud vendor. Antiphishingtechniques can be used regardless of where servers and services are located.
+
 13-  Alaina discovers that someone has set up a website that looks exactly like her organization's banking website. Which of the following terms best describes this sort of attack?
 
 A. Phishing
@@ -149,6 +151,8 @@ B. Pharming
 C. Typosquatting
 
 D. Tailgating
+
+13. B. Pharming best fits this description. Pharming attacks use web pages that are designed to look like a legitimate site but that attempt to capture information like credentials. Typo squatting relies on slightly incorrect hostnames or URLs, and nothing like that is mentioned in the question. Tailgating is an in-person attack, and phishing is typically done via email or other means to request information, not by setting up a site like this, although some phishing attacks may direct to a pharming website!
 
 14-  When a caller was recently directed to Amanda, who is a junior IT employee at her company, the caller informed her that they were the head of IT for her organization and that she needed to immediately disable the organization's firewall due to an ongoing issue with their e-commerce website. After Amanda made the change, she discovered that the caller was not the head of IT, and that it was actually a penetration tester hired by her company. Which social engineering principle best matches this type of attack?
 
@@ -160,6 +164,8 @@ C. Scarcity
 
 D. Trust
 
+14. A. The caller relied on their perceived authority to require Amanda to make the change. They likely also used urgency, which isn't mentioned here, but that would cause Amanda to potentially skip the validation or verification processes she would have normally used in a scenario like this. There is no effort to build consensus or establish trust, nor is there a sense of scarcity as described in the scenario.
+
 15-  What type of malicious actor is most likely to use hybrid warfare?
 
 A. A script kiddie
@@ -170,7 +176,9 @@ C. An internal threat
 
 D. A nation-state
 
-16-  Sharif receives a bill for services that he does not believe his company requested or had performed. What type of social engineering technique is this?
+15. D. Hybrid warfare combines active cyberwarfare, influence campaigns, and real-world direct action. This makes hybrid warfare almost exclusively the domain of nation-state actors.
+
+16- Sharif receives a bill for services that he does not believe his company requested or had performed. What type of social engineering technique is this?
 
 A. Credential harvesting
 
@@ -179,6 +187,8 @@ B. A hoax
 C. Reconnaissance
 
 D. An invoice scam
+
+16. D. This is an example of an invoice scam. Most invoice scams involve sending fake invoices hoping to be paid. No information is being gathered, so this isn't reconnaissance or credential harvesting. This could be a hoax, but the more accurate answer is an invoice scam. Note that some social engineering uses false invoices to deploy malware by including it as an attachment or by using an attachment with malicious scripts built into a Microsoft Office file.
 
 17-  Naomi receives a report of smishing. What type of attack should she be looking for?
 
@@ -190,6 +200,8 @@ C. Voicemail-based phishing
 
 D. Server-based phishing
 
+17. B. Smishing is a type of phishing that occurs via text (SMS) message.
+
 18-  Charles wants to find out about security procedures inside his target company, but he doesn't want the people he is talking to realize that he is gathering information about the organization. He engages staff members in casual conversation to get them to talk about the security procedures without noticing that they have done so. What term describes this process in social engineering efforts?
 
 A. Elicitation
@@ -200,7 +212,9 @@ C. Pharming
 
 D. Prepending
 
-19-  A caller reached a member of the IT support person at Carlos's company and told them that the chairman of the company's board was traveling and needed immediate access to his account but had been somehow locked out. They told the IT supportperson that if the board member did not have their password reset, the company could lose a major deal. If Carlos receives a report about this, which of the principles of social engineering should he categorize the attacker's efforts under?
+18. A. Elicitation is the process of using casual conversation and subtle direction to gather information without the targets realizing they have disclosed details to that social engineer. Suggestion is not one of the terms used in the Security+ exam outline, pharming redirects traffic to malicious sites, andprepending can include a variety of techniques that add data or terms.
+
+19- A caller reached a member of the IT support person at Carlos's company and told them that the chairman of the company's board was traveling and needed immediate access to his account but had been somehow locked out. They told the IT supportperson that if the board member did not have their password reset, the company could lose a major deal. If Carlos receives a report about this, which of the principles of social engineering should he categorize the attacker's efforts under?
 
 A. Scarcity
 
@@ -210,7 +224,9 @@ C. Consensus
 
 D. Urgency
 
-20-  What type of phishing targets specific groups of employees, such as all managers in the financial department of a company?
+19. D. The caller was attempting to create a sense of urgency that would cause the help desk staff member to bypass normal procedures and let them set the board member's password to something that the social engineer would know. There is no implication of something scarce or that the caller is trying to get the help desk member to feel like others agree about the topic, thus using consensus. Familiarity takes more than using a board member's name or details about the company.
+
+20- What type of phishing targets specific groups of employees, such as all managers in the financial department of a company?
 
 A. Smishing
 
@@ -219,3 +235,5 @@ B. Spear phishing
 C. Whaling
 
 D. Vishing
+
+20. B. Spear phishing is aimed at specific groups. Whaling would target VIPs and executives, smishing uses SMS (text) messages, and vishing is done via voice or voicemail.
