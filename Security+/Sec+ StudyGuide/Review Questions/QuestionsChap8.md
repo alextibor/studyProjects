@@ -116,54 +116,78 @@ C. Something you have
 
 D. Something you set
 
-13- Melissa is planning on implementing biometric authenticationon her network. Which of the following should be a goal for any
-biometric solution she selects?
+13- Melissa is planning on implementing biometric authenticationon her network. Which of the following should be a goal for any biometric solution she selects?
+
 A. High FRR, low FAR
+
 B. High FAR, low FRR
+
 C. Low CER
+
 D. High CER
-14. What type of attack does an account lockout policy help to
-prevent?
+
+14- What type of attack does an account lockout policy help to prevent?
+
 A. Stolen password
+
 B. Race conditions
+
 C. Buffer overflows
+
 D. Brute force
-15. Password complexity, password history, and password reuse are
-all examples of what?
+
+15- Password complexity, password history, and password reuse are all examples of what?
+
 A. Account auditsB. Account policies
+
 C. Access policies
+
 D. Credential attributes
-16. Scott wants to allow users to bring their own credentials to his
-website so that they can log in using a Google or Microsoft
-account without giving him their passwords. What protocol can
-he use that will allow those users to grant the website access to
-their information?
+
+16- Scott wants to allow users to bring their own credentials to his website so that they can log in using a Google or Microsoft account without giving him their passwords. What protocol can he use that will allow those users to grant the website access to their information?
+
 A. Kerberos
+
 B. OAuth
+
 C. RADIUS
+
 D. OpenID
-17. Trevor is deploying the Google Authenticator mobile application
-for use in his organization. What type of one-time password
-system does Google Authenticator use in its default mode?
+
+17- Trevor is deploying the Google Authenticator mobile application for use in his organization. What type of one-time password system does Google Authenticator use in its default mode?
+
 A. HMAC-based one-time passwords
+
 B. SMS-based one-time passwords
+
 C. Time-based one-time passwords
+
 D. Static codes
-18. Nina's organization uses SSH keys to provide secure access
-between systems. Which of the following is not a common
-security concern when using SSH keys?
+
+18- Nina's organization uses SSH keys to provide secure accessbetween systems. Which of the following is not a common security concern when using SSH keys?
+
 A. Inadvertent exposure of the private key
+
 B. Weak passwords/passphrases
+
 C. SSH key sprawl
+
 D. Weak encryption
-19. A person's name, age, location, or job title are all examples of
-what?
+
+19- A person's name, age, location, or job title are all examples of what?
+
 A. Biometric factors
+
 B. Identity factorsC. Attributes
+
 D. Account permissions
-20. What type of access control scheme best describes the Linux
-filesystem?
+
+20- What type of access control scheme best describes the Linux filesystem?
+
 A. MAC
+
 B. RBAC
+
 C. DAC
+
 D. ABAC
