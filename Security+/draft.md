@@ -6,7 +6,7 @@ CompTia Security+ SY0-601 Chapter X Flashcards
 #### `Be sure that you understand these issues, because they are likely to appear on exam questions!`
 
 
-1 Chap
+1 Chap 
 Review 5 Chap Review Questions
 Review 5 Deks a day (Security Plus)
 55 PG of Study Guide
