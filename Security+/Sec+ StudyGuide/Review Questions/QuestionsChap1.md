@@ -48,7 +48,7 @@ D. Hashing
 
 4. B. In this case, the first 12 digits of the credit card have been removed and replaced with asterisks. This is an example of data masking.
 
-5- Tonya is concerned about the risk that an attacker will attempt to gain access to her organization's database server. She issearching for a control that would discourage the attacker from attempting to gain access. What type of security control is she seeking to implement?
+5- Tonya is concerned about the risk that an attacker will attempt to gain access to her organization's database server. She is searching for a control that would discourage the attacker from attempting to gain access. What type of security control is she seeking to implement?
 
 A. Preventive
 
