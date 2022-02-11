@@ -1,7 +1,6 @@
 Chapter 2: Cybersecurity Threat Landscape Review Questions
 
-1- Which of the following measures is not commonly used to assess
-threat intelligence?
+1- Which of the following measures is not commonly used to assess threat intelligence?
 
 A. Timeliness
 
@@ -49,7 +48,7 @@ D. Insider
 
 4. A. Advanced persistent threats (APTs) are most commonly associated with nation-state actors. It is unlikely that an APT group would leverage the unsophisticated services of a script kiddie. It is also unlikely that a hacktivist would have access to APT resources. Although APTs may take advantage of insider access, they are most commonly associated with nation-state actors.
 
-5- What organizations did the U.S. government help create to help share knowledge between organizations in specific verticals?
+5- What organizations did the U.S. government create to help share knowledge between organizations in specific verticals?
 
 A. DHS
 
@@ -59,7 +58,7 @@ C. CERTS
 
 D. ISACs
 
-5. D. The U.S. government created the Information Sharing and Analysis Centers (ISACs). ISACs help infrastructure owners and operators share threat information, and provide tools and assistance to their members.
+1. D. The U.S. government created the Information Sharing and Analysis Centers (ISACs). ISACs help infrastructure owners and operators share threat information, and provide tools and assistance to their members.
 
 6- Which of the following threat actors typically has the greatest access to resources?
 
@@ -109,7 +108,7 @@ D. IOCs
 
 9. A. Behavioral assessments are very useful when you are attempting to identify insider threats. Since insider threats are often hard to distinguish from normal behavior, the context of the actions performed—such as after-hours logins, misuse of credentials, logins from abnormal locations, or abnormal patterns—and other behavioral indicators are often used.
 
-10- Cindy wants to send threat information via a standardized protocol specifically designed to exchange cyber threat information.What should she choose?
+10- Cindy wants to send threat information via a standardized protocol specifically designed to exchange cyber threat information. What should she choose?
 
 A. STIX 1.0
 
@@ -130,7 +129,7 @@ B. Removable media
 C. Cloud
 
 D. Direct access
-
+ 
 11. A. Tampering with equipment before it reaches the intended user is an example of a supply chain threat. It is also possible to describe this attack as a direct access attack because it involved physical access to the device, but supply chain is a more relevant answer. You should be prepared to select the best possible choice from several possible correct answers when you take the exam. Security+ questions often use this type of misdirection.
 
 12- Ken is conducting threat research on Transport Layer Security (TLS) and would like to consult the authoritative reference for the protocol's technical specification. What resource would best meet his needs?
@@ -149,7 +148,9 @@ D. Textbooks
 
 A. Product manuals
 
-B. Source codeC. API keys
+B. Source code
+
+C. API keys
 
 D. Open source data
 
@@ -195,7 +196,9 @@ D. Data exfiltration
 
 A. Unavailability of future patches
 
-B. Lack of technical supportC. Theft of customer information
+B. Lack of technical support
+
+C. Theft of customer information
 
 D. Increased costs
 
@@ -241,4 +244,4 @@ C. Gray-hat hacking
 
 D. Black-hat hacking
 
-20. C. Renee was not authorized to perform this security testing, so her work does not fit into the category of white-hat hacking.However, she also does not have malicious intent, so her work cannot be categorized as a black-hat attack. Instead, it fits somewhere in between the two extremes and would best be described as gray-hat hacking.
+20. C. Renee was not authorized to perform this security testing, so her work does not fit into the category of white-hat hacking. However, she also does not have malicious intent, so her work cannot be categorized as a black-hat attack. Instead, it fits somewhere in between the two extremes and would best be described as gray-hat hacking.

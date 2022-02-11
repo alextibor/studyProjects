@@ -70,7 +70,7 @@ C. Require third-party review for bias in ML algorithms
 
 D. Ensure changes to ML algorithms are reviewed and tested
 
-6. C. Requiring third-party review of ML algorithms is not a common requirement, but ensuring that you use high-quality source data, that the working environment remains secure, andthat changes are reviewed and tested are all common best practices for ML algorithm security.
+6. C. Requiring third-party review of ML algorithms is not a common requirement, but ensuring that you use high-quality source data, that the working environment remains secure, and that changes are reviewed and tested are all common best practices for ML algorithm security.
 
 7- What type of malware is adware typically classified as?
 
@@ -102,7 +102,9 @@ A. All files on the system
 
 B. All keyboard input
 
-C. All files the user accessed while the keylogger was activeD. Keyboard and other input from the user
+C. All files the user accessed while the keylogger was active
+
+D. Keyboard and other input from the user
 
 9. D. Though keyloggers often focus on keyboard input, other types of input may also be captured, meaning Nancy should worry about any user input that occurred while the keylogger was installed. Keyloggers typically do not target files on systems, although if Nancy finds a keylogger she may want to check for other malware packages with additional capabilities.
 
