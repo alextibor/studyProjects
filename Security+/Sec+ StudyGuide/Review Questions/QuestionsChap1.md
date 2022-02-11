@@ -73,6 +73,7 @@ D. Network-based
 6. D. In this case, Greg must use a network-based DLP system. Host-based DLP requires the use of agents, which would not be installed on guest systems. Greg may use watermarking and/or pattern recognition to identify the sensitive information. but he must use network-based DLP to meet his goal.
 
 7- What term best describes data that is being sent between two systems over a network connection?
+
 A. Data at rest
 
 B. Data in motion
@@ -93,7 +94,7 @@ C. Managerial control
 
 D. Operational control
 
-8. A. Technical controls enforce confidentiality, integrity, and availability in the digital space. Examples of technical securitycontrols include firewall rules, access control lists, intrusion prevention systems, and encryption.
+8. A. Technical controls enforce confidentiality, integrity, and availability in the digital space. Examples of technical security controls include firewall rules, access control lists, intrusion prevention systems, and encryption.
 
 9- Which one of the following is not a common goal of a cybersecurity attacker?
 
@@ -141,7 +142,7 @@ C. Strategic goals
 
 D. Best practices
 
-12. A. As an organization analyzes its risk environment, technical and business leaders determine the level of protection required t preserve the confidentiality, integrity, and availability of their information and systems. They express these requirements by writing the control objectives that the organization wishes to achieve. These control objectives are statements of a desired security state.
+12. A. As an organization analyzes its risk environment, technical and business leaders determine the level of protection required to preserve the confidentiality, integrity, and availability of their information and systems. They express these requirements by writing the control objectives that the organization wishes to achieve. These control objectives are statements of a desired security state.
 
 13- Lou mounted the sign below on the fence surrounding his organization's datacenter. What control type best describes this control?
 
