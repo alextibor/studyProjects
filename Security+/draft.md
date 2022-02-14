@@ -5,12 +5,14 @@ CompTia Security+ SY0-601 Chapter X Flashcards
 
 #### `Be sure that you understand these issues, because they are likely to appear on exam questions!`
 
-1 Chap 
-Review 5 Chap Review Questions
-Review 5 Deks a day (Security Plus)
-55 PG of Study Guide
-5 Sections on Online Course
-1 Practice Exam a day
+06 | AWS
+12 | 1 Chap
+16 | Review 5 Chap Review Questions
+18 | Review 5 Deks a day (Security Plus)
+21 | Practice Exam a day
+
+| 55 PG of Study Guide
+| Sections on Online Course
 
 01/03 - Security+
 01/05 - SYCP
