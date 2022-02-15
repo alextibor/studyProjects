@@ -8,7 +8,7 @@ CompTia Security+ SY0-601 Chapter X Flashcards
 06 | AWS
 12 | 1 Chap
 16 | Review 5 Chap Review Questions
-18 | Review 5 Deks a day (Security Plus)
+18 | Review 5 Decks a day (Security Plus)
 21 | Practice Exam a day
 
 | 55 PG of Study Guide
@@ -16,5 +16,6 @@ CompTia Security+ SY0-601 Chapter X Flashcards
 
 01/03 - Security+
 01/05 - SYCP
-dasdas
 Decorar portas e protocolos
+
+parei na 595
