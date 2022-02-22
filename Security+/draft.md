@@ -19,3 +19,5 @@ CompTia Security+ SY0-601 Chapter X Flashcards
 Decorar portas e protocolos
 
 parei na 595
+
+AWS
