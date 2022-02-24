@@ -21,3 +21,4 @@ Decorar portas e protocolos
 parei na 595
 
 AWS
+Curso ruim
