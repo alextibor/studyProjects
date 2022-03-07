@@ -51,27 +51,32 @@
     <main class="my-5">
       <div class="container">
         <div class="row">
-          <div class="col-md-7">
-            <img
-            src="./img/pexels-photo-7821521.jpeg"
-            alt=""
-            class="img-fluid"
-            />
-          </div>
-          <div class="col-md-5">
-            <h1 class="mt-5">SecPay</h1>
-            <p class="mt-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-              veniam suscipit accusantium quibusdam dicta nesciunt esse? Id
-              itaque incidunt sint distinctio voluptatem tempore tempora aliquam
-              sunt, vel, repellat velit. Vel!
-            </p>
-            <button type="button" class="btn btn-primary mt-3">
-              Cadastre-se
-            </button>
-          </div>
+            <div class="col-md-6 offset-md-3">
+                <div class="signup-form">
+                    <form action="" class="mt-5 border p-4 bg-light shadow">
+                        <h4 class="mb-5 text-secondary">Cadastre o seu cartão de crédito</h4>
+                        <div class="row">
+                            <div class="mb-3 col-md-12">
+                                <label>Nome do titular<span class="text-danger">*</span></label>
+                                <input type="text" name="fname" class="form-control" placeholder="">
+                            </div>
+                            <div class="mb-3 col-md-12">
+                                <label>Numero do cartão<span class="text-danger">*</span></label>
+                                <input type="password" name="password" class="form-control" placeholder="">
+                            </div>
+                            <div class="mb-3 col-md-12">
+                                <label>Codigo de segurança<span class="text-danger">*</span></label>
+                                <input type="password" name="confirmpassword" class="form-control" placeholder="">
+                            </div>
+                            <div class="col-md-12">
+                               <button class="btn btn-primary float-end">Cadastrar!</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
-      </div>
+    </div>
     </main>
     <footer class="footer mt-auto py-3 bg-dark fixed-bottom">
       <div class="container">
