@@ -1,0 +1,44 @@
+<article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+          <img src="{% static '/img/receita-kiwi.jpg' %}" class="card-img-top card-posicao-imagem" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Salada de kiwi</h5>
+              <p class="card-text">Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
+              <a href="#" class="btn botao-cor-especial">Veja a receita</a>
+            </div>
+        </article>
+
+        <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+          <img src="{% static '/img/receita-mix.jpg' %}" class="card-img-top card-posicao-imagem" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Mix de vegetais</h5>
+              <p class="card-text">Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
+              <a href="#" class="btn botao-cor-especial">Veja a receita</a>
+            </div>
+        </article>
+
+        <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+          <img src="{% static '/img/receita-pimentoes.jpg' %}" class="card-img-top card-posicao-imagem" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Pimentões à Juliana</h5>
+              <p class="card-text">Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
+              <a href="#" class="btn botao-cor-especial">Veja a receita</a>
+            </div>
+        </article>
+
+        <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+          <img src="{% static '/img/receita-oriental.jpg' %}" class="card-img-top card-posicao-imagem" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Prato oriental</h5>
+              <p class="card-text">Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
+              <a href="#" class="btn botao-cor-especial">Veja a receita</a>
+            </div>
+        </article>
+
+        <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+          <img src="{% static 'img/receita-beterrabas.jpg' %}" class="card-img-top card-posicao-imagem" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Beterrabas assadas</h5>
+              <p class="card-text">Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
+              <a href="#" class="btn botao-cor-especial">Veja a receita</a>
+            </div>
+        </article>

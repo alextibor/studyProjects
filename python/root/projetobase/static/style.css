@@ -44,7 +44,7 @@
 /* LANDING */
 
 .jumb-bg {
-    background-image: url('{% static "img/carrossel-img2.jpg" %}');
+    background-image: url('img/carrossel-img2.jpg');
     background-size: cover;
     background-position: center;
     height: 500px;
