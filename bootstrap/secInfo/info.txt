@@ -1,0 +1,13 @@
+/* CSS HEX */
+--pear: #ced138ff;
+--baby-powder: #f6f6eeff;
+--laurel-green: #c1cca6ff;
+--moss-green: #8ca25fff;
+--avocado: #587918ff;
+
+style="background-color: black;"
+
+
+
+
+<div class="container d-flex align-items-center">
