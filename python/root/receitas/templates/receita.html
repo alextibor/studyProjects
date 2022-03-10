@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+   <!-- NavBar -->
+  {% include 'partials/navbar.html' %}
+
+  <main>
+    <span>HELLO</span>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-8">
+                <div class="my-5">
+                    <span>{{receita.date_receita}}</span>
+                    <h2 class="font-weight-bold texto-cor-especial">{{receita.nome_receita}}</h2>
+                    <div class="receipe-duration">
+                        <h6>Preparo: {{receita.tempo_preparo}}</h6>
+                        <h6>Rendimento: {{receita.rendimento}}</h6>
+                        <h6>Categoria: {{receita.categoria}}</h6>
+                        <h6>Por: Pessoa</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-12 col-lg-8">
+                <!-- Ingredientes -->
+                <h4 class="texto-cor-especial">Ingredientes</h4>
+                <div class="d-flex">
+                    <p class="">{{receita.ingredientes}}</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-8">
+                <!-- Modo de preparo -->
+                <h4 class="texto-cor-especial">Modo de preparo</h4>
+                <div class="d-flex">
+                    <p>{{receita.modo_preparo}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </main>
+
+   <!--FOOTER-->
+  {% include 'partials/footer.html' %}
+
+  {% endblock %}
