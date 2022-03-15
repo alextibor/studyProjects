@@ -82,7 +82,7 @@ C. Wireless
 
 D. Removable media
 
-7. A. Email is the most common threat vector exploited by attackers who use phishing and other social engineering tacticsto gain access to an organization. The other vectors listed here, direct access, wireless, and removable media, all require physical proximity to an organization and are not easily executed from a remote location.
+7. A. Email is the most common threat vector exploited by attackers who use phishing and other social engineering tactics to gain access to an organization. The other vectors listed here, direct access, wireless, and removable media, all require physical proximity to an organization and are not easily executed from a remote location.
 
 8- Which one of the following is the best example of a hacktivist group?
 

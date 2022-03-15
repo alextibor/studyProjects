@@ -140,7 +140,7 @@ C. Dumpster diving
 
 D. Phishing
 
-12. D. Shoulder surfing, tailgating, and dumpster diving are all in- person physical attacks and are not something that will be in Lucca's control with a major cloud vendor. Antiphishingtechniques can be used regardless of where servers and services are located.
+12. D. Shoulder surfing, tailgating, and dumpster diving are all in- person physical attacks and are not something that will be in Lucca's control with a major cloud vendor. Anti-phishing techniques can be used regardless of where servers and services are located.
 
 13-  Alaina discovers that someone has set up a website that looks exactly like her organization's banking website. Which of the following terms best describes this sort of attack?
 
@@ -214,7 +214,7 @@ D. Prepending
 
 18. A. Elicitation is the process of using casual conversation and subtle direction to gather information without the targets realizing they have disclosed details to that social engineer. Suggestion is not one of the terms used in the Security+ exam outline, pharming redirects traffic to malicious sites, andprepending can include a variety of techniques that add data or terms.
 
-19- A caller reached a member of the IT support person at Carlos's company and told them that the chairman of the company's board was traveling and needed immediate access to his account but had been somehow locked out. They told the IT supportperson that if the board member did not have their password reset, the company could lose a major deal. If Carlos receives a report about this, which of the principles of social engineering should he categorize the attacker's efforts under?
+19- A caller reached a member of the IT support person at Carlos's company and told them that the chairman of the company's board was traveling and needed immediate access to his account but had been somehow locked out. They told the IT support person that if the board member did not have their password reset, the company could lose a major deal. If Carlos receives a report about this, which of the principles of social engineering should he categorize the attacker's efforts under?
 
 A. Scarcity
 

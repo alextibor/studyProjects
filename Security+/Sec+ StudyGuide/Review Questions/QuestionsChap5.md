@@ -1,6 +1,10 @@
+Chapter 5: Security Assessment and Testing Review Questions
+
 1- Which one of the following security assessment techniques assumes that an organization has already been compromised and searches for evidence of that compromise?
 
-A. Vulnerability scanningB. Penetration testing
+A. Vulnerability scanning
+
+B. Penetration testing
 
 C. Threat hunting
 
@@ -46,7 +50,9 @@ D. Severe
 
 5- Tara recently analyzed the results of a vulnerability scan report and found that a vulnerability reported by the scanner did not exist because the system was actually patched as specified. What type of error occurred?
 
-A. False positiveB. False negative
+A. False positive
+
+B. False negative
 
 C. True positive
 
@@ -78,7 +84,7 @@ D. Nslookup
 
 7. C. Nmap is a port scanning tool used to enumerate open network ports on a system. Nessus is a vulnerability scanner designed to detect security issues on a system. Nslookup is a DNS information gathering utility. All three of these tools may be used to gather information and detect vulnerabilities. Metasploit is an exploitation framework used to execute and attack and would be better suited for the Attacking and Exploiting phase of a penetration test.
 
-8- During a vulnerability scan, Brian discovered that a system on his network contained this vulnerability:What security control, if deployed, would likely have addressed this issue?
+8- During a vulnerability scan, Brian discovered that a system on his network contained this vulnerability: What security control, if deployed, would likely have addressed this issue?
 
 ![picture 1](../../images/a043fb5c587f3fbc4eb03c625075cb0e4c62d0ceca422eab40b7dfb39c345dbe.png)  
 
@@ -102,9 +108,10 @@ C. Intrusion detection system
 
 D. Network vulnerability scanner
 
-9.  B. Intrusion detection systems do not detect vulnerabilities; they detect attacks. The remaining three tools could all possiblydiscover a cross-site scripting (XSS) vulnerability, but a web application vulnerability scanner is the most likely to detect it because it is specifically designed to test web applications.
+9.  B. Intrusion detection systems do not detect vulnerabilities; they detect attacks. The remaining three tools could all possibly discover a cross-site scripting (XSS) vulnerability, but a web application vulnerability scanner is the most likely to detect it because it is specifically designed to test web applications.
 
 10- During a penetration test, Patrick deploys a toolkit on a compromised system and uses it to gain access to other systems on the same network. What term best describes this activity? 
+
 A. Lateral movement
 
 B. Privilege escalation
@@ -127,7 +134,9 @@ D. White team
 
 11. A. Offensive hacking is used by red teams as they attempt to gain access to systems on the target network. Blue teams are responsible for managing the organization's defenses. White teams serve as the neutral moderators of the exercise. Purple teaming is conducted after an exercise to bring together the red and blue teams for knowledge sharing.
 
-12- Which one of the following assessment techniques is designed to solicit participation from external security experts and reward them for discovering vulnerabilities?A. Threat hunting
+12- Which one of the following assessment techniques is designed to solicit participation from external security experts and reward them for discovering vulnerabilities?
+
+A. Threat hunting
 
 B. Penetration testing
 
@@ -177,7 +186,9 @@ D. CCE
 
 A. Gray-box test
 
-B. Blue-box testC. White-box test
+B. Blue-box test
+
+C. White-box test
 
 D. Black-box test
 
