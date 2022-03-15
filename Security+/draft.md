@@ -17,8 +17,3 @@ CompTia Security+ SY0-601 Chapter X Flashcards
 01/03 - Security+
 01/05 - SYCP
 Decorar portas e protocolos
-
-parei na 595
-
-AWS
-Curso ruim
