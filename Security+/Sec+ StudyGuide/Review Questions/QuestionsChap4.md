@@ -30,7 +30,9 @@ A. A man-in-the-room attack
 
 B. Shoulder surfing
 
-C. A man-in-the-middle attackD. Pretexting
+C. A man-in-the-middle attack
+
+D. Pretexting
 
 3. B. Shoulder surfing is the process of watching what someone is doing to acquire passwords or other information. A man-in-the- middle attack is a technical attack that inserts an attacker between a victim and a legitimate server or other destination to capture traffic. Pretexting is a social engineering technique that presents a reason or excuse why something is needed or done. A man-in-the-room attack was made up for this question.
 
@@ -126,11 +128,11 @@ B. Pharming
 
 C. Typosquatting
 
-D. Hosts file compromise12. Lucca's organization runs a hybrid datacenter with systems in
+D. Hosts file compromise
 
 11. C. Typo squatting uses misspellings and common typos of websites to redirect traffic for profit or malicious reasons. Fortunately, if you visit smazon.com , you'll be redirected to the actual amazon.com website, because Amazon knows about and works to prevent this type of issue. DNS hijacking and hosts file modifications both attempt to redirect traffic to actual URLs or hostnames to different destinations, and pharming does redirect legitimate traffic to fake sites, but typo squatting is the more specific answer.
 
-12- Microsoft's Azure cloud and in a local facility. Which of the following attacks is one that he can establish controls for in both locations?
+12- Lucca's organization runs a hybrid datacenter with systems in Microsoft's Azure cloud and in a local facility. Which of the following attacks is one that he can establish controls for in both locations?
 
 A. Shoulder surfing
 
@@ -140,7 +142,7 @@ C. Dumpster diving
 
 D. Phishing
 
-12. D. Shoulder surfing, tailgating, and dumpster diving are all in- person physical attacks and are not something that will be in Lucca's control with a major cloud vendor. Anti-phishing techniques can be used regardless of where servers and services are located.
+12. D. Shoulder surfing, tailgating, and dumpster diving are all in- person physical attacks and are not something that will be in Lucca's control with a major cloud vendor. Antiphishingtechniques can be used regardless of where servers and services are located.
 
 13-  Alaina discovers that someone has set up a website that looks exactly like her organization's banking website. Which of the following terms best describes this sort of attack?
 
