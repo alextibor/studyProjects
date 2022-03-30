@@ -37,6 +37,6 @@ void helloWorld(){
 
 int main() {
 
-    lendoDados();
+    helloWorld();
     return 0;
 }

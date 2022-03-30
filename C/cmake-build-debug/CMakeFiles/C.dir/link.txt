@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/C.dir/clock.c.o -o C 
