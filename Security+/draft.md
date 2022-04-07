@@ -10,3 +10,4 @@ CompTia Security+ SY0-601 Chapter X Flashcards
 16 | Review 5 Chap Review Questions
 18 | Review 5 Decks a day (Security Plus)
 21 | Practice Exam a day
+teste new
