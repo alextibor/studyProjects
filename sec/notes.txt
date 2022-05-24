@@ -1,2 +1,0 @@
-Estudar programas metamórficos
-Estudar virus que roda em maquina virtual
