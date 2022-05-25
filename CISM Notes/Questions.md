@@ -10,3 +10,6 @@ Risk Appetite Each organization has a particular appetite for risk, although few
 
 Wanderson, o que pode acontecer se alguém invadir o grupo real? Quais são os cenarios que você imagina? O que pode ser perdido?
 
+Temos o access department, eu faço. ok mas tem algo a mais pra colocar nisso?
+
+General Staff pag 172 - importante, revisar.

@@ -49,3 +49,9 @@ Information security governance is most effective when every person in the organ
 
 Executive management is responsible for carrying out directives issued by the board of directors. In the context of information security management, this includes ensuring that there are sufficient resources for the organization to implement a security program and to develop and maintain security controls to protect critical assets.
 
+- Access grants: Asset owners decide whether individuals or groups should be given access to the asset, as well as the level and type of access. Example access types include combinations of read only, read-write, create, and delete.
+
+# Rank Sets Tone and Gives Power
+
+# Software Development
+
